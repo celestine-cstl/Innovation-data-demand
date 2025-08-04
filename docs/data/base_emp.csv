@@ -1,0 +1,1422 @@
+firm_name;n_offres;sector_main;avg_req_exp;top_skill_req;avg_wage;addr_dept_main
+1DSOLUTIONS;2;;;Equipe Et Collaboration;36400;75
+1GLINK CONSULTING;2;;;Autonome, Equipe Et Collaboration, Python, Sql;48750;75
+52 ENTERTAINMENT;7;;3;Communication;;
+AB SCIENCE;2;;;Bases De Données, Excel, Optimisation, Programmation, Sql;;75
+AB TASTY;1;ESN, Secteur informatique;;Anglais, Bases De Données, Créativité, Git, Optimisation, Python, Sql;;75
+ABEILLE ASSURANCES;2;;;Equipe Et Collaboration;;92
+ABIL RESSOURCES;1;ESN, Secteur informatique, Services aux Entreprises;1;Apprentissage Profond;50000;94
+ABORO;1;;;Base De Donnée, Communication, Créativité, Curiosité, Equipe Et Collaboration, Excel, Power Bi, Programmation, Python, Rapport, Rigueur, Sql, Statistique, Tableau;;
+ABYLSEN;5;ESN, Secteur informatique;1;Equipe Et Collaboration;40000;13
+ACCELITE;1;;;Anglais, Hadoop, Power Bi, Python, Spark, Sql, Statistique, Tableau;47500;75
+ACCENTURE FRANCE;60;ESN, Secteur informatique;6.4;Créativité, Git;;
+ACCORCORPO;1;;;Equipe Et Collaboration;;92
+ACENSI;2;Services aux Entreprises;7;Equipe Et Collaboration, Git;52500;33
+ACEO TECH;1;;;Anglais, Equipe Et Collaboration, Excel, Gestion De Projets;;63
+ACII BY AUDENSIEL;2;ESN, Secteur informatique;1;Equipe Et Collaboration, Modélisation;37500;44
+ACSSI;1;;;Anglais, Equipe Et Collaboration, Power Bi, Tableau, Visualisation De Donnée;;75
+ACTINVISION;2;;;Autonome, Equipe Et Collaboration;43250;67
+ACTIVUS;8;ESN, Secteur informatique;3.25;Equipe Et Collaboration;47900;31
+ACTON DATA;1;;;Anglais, Aws, Azure, Equipe Et Collaboration, Excel, Français, Git, Rapport, Statistique, Tableau;;92
+ADALID;44;;;Rapport, Statistique;;59
+ADAPT RH;1;Services aux Entreprises;7;Autonome;75000;75
+ADEO SERVICES;1;;;Anglais, C++, Communication, Curiosité, Equipe Et Collaboration, Gestion De Projets, Git, Intelligence Artificielle, Modélisation, Optimisation, Power Bi, Programmation, Prévision, Python, Sql, Tableau;;59
+ADEQUATION;1;Immobilier, Services aux Entreprises;7;Equipe Et Collaboration, Git, Optimisation;;
+ADHERENCE CONSULTING;2;ESN, Secteur informatique, NA;7;Bases De Données, Git, Statistique;;59
+ADIKTEEV;4;;;Français;;75
+ADOC TALENT MANAGEMENT;1;Services aux Entreprises;;Anglais, Bases De Données, Collecte De Données, Communication, Français, Programmation;;75
+ADOD;1;ESN, Secteur informatique;7;Aws, Azure, Equipe Et Collaboration, Prévision, Spark, Sql;;69
+ADONE CONSEIL;1;;;Equipe Et Collaboration, Git, Intelligence Artificielle;70000;75
+ADSEARCH;15;Services aux Entreprises;1;Equipe Et Collaboration;54666.6666666667;44
+ADWAY CONSEIL;1;;;Anglais, Equipe Et Collaboration, Excel, Gestion Du Temps, Git, Modélisation, Programmation, Python, Statistique;;92
+AEROW;1;;;Anglais, Power Bi;;75
+AFDTECH;3;ESN, Secteur informatique;5;NA;47500;59
+AFTERDATA;1;;;Créativité, Equipe Et Collaboration, Français, Programmation, Python, Rapport;16800;75
+AG SOLUTION;1;;;Communication;;59
+AG2R LA MONDIALE;3;;1;Autonome, Equipe Et Collaboration;;75
+AGH CONSULTING;4;Industrie high-tech, Telecom, NA;7;Equipe Et Collaboration;;92
+AGORASTORE;7;;;Equipe Et Collaboration;;
+AIA BORDEAUX;1;;;Autonome;;33
+AIR FRANCE;1;;;Modélisation, Optimisation, Programmation, Python;;95
+AIR LIQUIDE;8;;0;Anglais, Equipe Et Collaboration, Git;;75
+AIRBUS;8;;;Anglais;;13
+AIRCALL;2;ESN, Secteur informatique, NA;0;Communication;;75
+AIS;2;ESN, Secteur informatique;;Bases De Données, Equipe Et Collaboration, Excel, Optimisation, Power Bi, Sql;;44
+AIXIAL;1;;;Collecte De Données, Intelligence Artificielle, Power Bi, Programmation, Python, Statistique, Tableau, Tensorflow, Visualisation De Donnée;;92
+AIZEN RECRUITMENT;1;;;Anglais, Bases De Données, Equipe Et Collaboration, Excel, Français, Gestion De Projets, Modélisation, Programmation;;75
+AKERWISE;1;;;Equipe Et Collaboration;;75
+AKKION RECRUITMENT;1;;;Autonome, Equipe Et Collaboration;;60
+AKKODIS;2;ESN, Secteur informatique;1;Bases De Données, Equipe Et Collaboration, Excel, Python, Tableau, Visualisation De Donnée, NA;42500;63
+ALGOSCOPE;1;;;Equipe Et Collaboration, Intelligence Artificielle, Python, Pytorch, Tensorflow;14400;
+ALMA;1;Assurance, Banque, Finance;;Communication;;75
+ALPEE;3;Environnement, Secteur Energie;1;NA;51666.6666666667;74
+ALSTOM;5;;;Equipe Et Collaboration;;41
+ALTECA;7;ESN, Secteur informatique;0.714285714285714;Equipe Et Collaboration;52500;59
+ALTEIA;1;;;Apprentissage Profond;;
+ALTELIOS TECHNOLOGY;11;ESN, Secteur informatique;4;Equipe Et Collaboration;47722.2222222222;92
+ALTEN;48;;0;Equipe Et Collaboration;;92
+AMAZON;3;Communication, Internet, Média;0;Communication;;33
+AMILTONE;2;ESN, Secteur informatique;7;Equipe Et Collaboration, Google Cloud, Power Bi, Programmation, Sql, Tableau;39000;59
+ANDERSON RH;1;Services aux Entreprises;1;Anglais, Statistique;;
+ANDRICE;1;Services aux Entreprises;7;Equipe Et Collaboration;;69
+ANEO;1;;;Autonome, Equipe Et Collaboration;15600;92
+ANYWR FREELANCE;1;;;Communication, Rapport;;59
+AOSIS;1;;;C++, Equipe Et Collaboration, Git, Natural Language Processing, Prévision, Python, Statistique;50000;92
+APHP DSI;13;;2;Apprentissage Profond, Equipe Et Collaboration;;
+APPLE;1;;;Apprentissage Profond;;75
+APRIL;2;Assurance, Banque, Finance, NA;;Apprentissage Profond, Equipe Et Collaboration;;69
+APSIDE;12;ESN, Secteur informatique;5;Anglais, Equipe Et Collaboration;49000;6
+APTAR;1;;;Autonome, Equipe Et Collaboration;;27
+AQUILA DATA ENABLER;3;;;Apprentissage Profond;;92
+ARCOM;1;;;Equipe Et Collaboration;;75
+ARGON CO;1;;;Apprentissage Profond;19800;92
+ARKEMA;1;;;Equipe Et Collaboration, Excel, Français, Power Bi, Rapport, Tableau, Visualisation De Donnée;;92
+ARKEON ENERGY;1;;;Optimisation;;14
+ARMOR MECA DEVELOPPEMENT;1;;;Rapport;35000;22
+ARTEFACT;7;ESN, Secteur informatique;0.333333333333333;Equipe Et Collaboration;;75
+ARTELIA;1;;;Anglais, Bases De Données, Communication, Curiosité, Equipe Et Collaboration, Git, Modélisation, Programmation, Python, Rapport, Rigueur, Statistique, Vba;;38
+ARTELYS;7;;3;Apprentissage Profond, Autonome;;
+ARTEMYS AGILIT GROUPE ARTEMYS;1;;;Equipe Et Collaboration, Excel, Intelligence Artificielle, Programmation, Python, Sql;32500;79
+ASI;4;ESN, Secteur informatique;7;Equipe Et Collaboration, Git, Sql;;69
+ASSURANCES CREDIT MUTUEL GIE;1;Assurance, Banque, Finance;;Autonome, Equipe Et Collaboration;62500;67
+ASSURANT;1;Assurance, Banque, Finance;0;Rapport;;13
+ASTEK;33;ESN, Secteur informatique;4.33333333333333;Equipe Et Collaboration, Git;;75
+ATOS;6;ESN, Secteur informatique;0.75;Equipe Et Collaboration;;33
+AUBAY;3;ESN, Secteur informatique;1;Equipe Et Collaboration;;75
+AUCHAN RETAIL FRANCE;1;;;Equipe Et Collaboration, Git, Google Cloud, Rapport, Sql, Tableau, Visualisation De Donnée;;59
+AUCHAN RETAIL INTERNATIONAL;1;;;Anglais, Base De Donnée, Communication, Equipe Et Collaboration, Git, Rapport, Sql, Statistique, Visualisation De Donnée;;59
+AUDENSIEL TECHNOLOGIES;3;ESN, Secteur informatique;7;Equipe Et Collaboration;;33
+AUTOBIZ;1;;;Anglais, Base De Donnée, Equipe Et Collaboration, Intelligence Artificielle, Modélisation, Programmation, Python, Sql, Statistique;;92
+AUTOMOTIVE CELLS COMPANY ACC;5;Industrie Manufacturière;3;Bases De Données;;33
+AVANADE;1;;;Apprentissage Profond;;75
+AVIENT;1;;;Communication;;1
+AVISIA;2;;;Aws, Azure, Equipe Et Collaboration, Excel, Python, Sql;;75
+AXA;22;Assurance, Banque, Finance;2;Equipe Et Collaboration;15576;92
+AXEAL;2;Services aux Entreprises;0;Equipe Et Collaboration, Sql;40500;69
+AXEREAL;1;Industrie Agro-alimentaire;;Communication;;45
+AXSANT;1;;;Anglais, Equipe Et Collaboration, Excel, Optimisation, Power Bi, Programmation, Prévision, Rapport, Sql, Tableau;55000;75
+AYMING;1;;;Créativité, Excel, Git, Optimisation, Power Bi, Vba;;92
+AZAP;2;;;Anglais, Equipe Et Collaboration, Français, Programmation, Prévision, Statistique;;75
+AZURA DISMA INTERATIONAL;2;Commerce de gros, Distribution;7;Bases De Données, Intelligence Artificielle, Rapport, Tableau;;66
+BACK MARKET;4;Communication, Internet, Média, NA;0;Anglais, Français, Python;;75
+BALENCIAGA;1;;;Anglais, Curiosité, Equipe Et Collaboration, Excel, Rapport, Tableau, Vba, Visualisation De Donnée;;75
+BANQUE DE FRANCE;3;;;Equipe Et Collaboration;;75
+BANQUE POPULAIRE;2;;;Rapport;;13
+BARTLE;1;Services aux Entreprises;;Equipe Et Collaboration, Modélisation, Statistique;;75
+BAXTER;1;;;Anglais, Communication, Equipe Et Collaboration, Excel, Power Bi, Programmation, Python, Rapport, Sql, Statistique, Tableau, Visualisation De Donnée;;78
+BAYER;1;;;Equipe Et Collaboration;;69
+BD;1;;;Rapport;;38
+BEARINGPOINT FRANCE;3;;;Equipe Et Collaboration, Rapport;;92
+BEEZEN;2;;;Sql;;92
+BELIEVE;2;Communication, Internet, Média, NA;7;Anglais, Aws, Equipe Et Collaboration, Excel, Français, Git, Python, Sql, Statistique;;75
+BERTRANDT;4;Aérospatial, Industrie Aéronautique;7;Equipe Et Collaboration;;31
+BETCLIC;4;;;Equipe Et Collaboration, Français, Statistique;;33
+BFORBANK;1;;;Autonome, Equipe Et Collaboration;;92
+BLUECONSULTING;2;;;Apprentissage Profond, Python;;75
+BNP PARIBAS;8;Assurance, Banque, Finance;0;Equipe Et Collaboration;;93
+BOLLORE;1;;;Base De Donnée, Excel, Power Bi, Rapport, Tableau;;92
+BOSTON CONSULTING;2;;;Curiosité, Equipe Et Collaboration, Gestion De Projets, Git, Python, Spark, Statistique;;75
+BOTIFY;2;Services aux Entreprises, NA;;Communication, Equipe Et Collaboration;;75
+BOULANGER;1;Commerce de gros, Distribution;7;Equipe Et Collaboration, Rapport;52500;59
+BOURSORAMA;2;;;Autonome, Equipe Et Collaboration, Python, Rapport, Statistique;;92
+BOUYGUES;8;BTP, Industrie high-tech, Telecom;0.75;Equipe Et Collaboration;;92
+BPCE;18;;7;Equipe Et Collaboration;;75
+BPGRANDOUEST;1;;;Bases De Données, Curiosité, Equipe Et Collaboration, Power Bi, Rigueur, Sql, Statistique;;44
+BRAINPOWER;1;ESN, Secteur informatique;;Autonome;;38
+BRGM;5;;0;Modélisation, Python, Rapport;;
+BRITTANY FERRIES;1;Hôtellerie, Loisirs, Tourisme;1;Equipe Et Collaboration, Prévision;;29
+BSPORT SOLUTION;7;;;Aws, Bases De Données, Optimisation, Proactif, Python, Sql;;
+BUREAU VERITAS;3;ESN, Secteur informatique;0;Communication;;69
+BUSINESS DECISION;21;ESN, Secteur informatique;7;Equipe Et Collaboration;;31
+BUSINESS INSIGHT;1;;;Anglais, Français;;
+BUT;2;Commerce de gros, Distribution;;Autonome;;77
+CAFPI;1;Assurance, Banque, Finance;0;Equipe Et Collaboration, Git, Intelligence Artificielle, Rapport;;64
+CAISSE DEPARGNE;4;;;Equipe Et Collaboration, Power Bi, Sql;;33
+CAISSE DES DEPOTS;4;;;Equipe Et Collaboration, Rapport;;75
+CANAL PLUS;1;Communication, Internet, Média;7;Equipe Et Collaboration;;92
+CAPGEMINI;63;;1.33333333333333;Equipe Et Collaboration;;75
+CAPITAL MANAGEMENT FUND;2;;;Apprentissage Profond, Communication, Equipe Et Collaboration, Python, Statistique;;75
+CARDIOLOGS;2;ESN, Secteur informatique, NA;0;Apprentissage Profond;;75
+CARREFOUR;21;Commerce de gros, Distribution;0;Equipe Et Collaboration;;91
+CCPA;1;;;Collecte De Données, Créativité, Curiosité, Equipe Et Collaboration, Git, Modélisation, Power Bi, Python, Rigueur, Résolution De Problèmes, Sql;;
+CDISCOUNT;7;Commerce de gros, Distribution;0.25;Equipe Et Collaboration;;33
+CEA;1;;;Apprentissage Profond;;91
+CEB;1;;;Equipe Et Collaboration, Rapport;78204;75
+CEGID;1;;;Equipe Et Collaboration;47000;69
+CELAD;5;ESN, Secteur informatique;7;Python;40000;92
+CENOVA;9;;2;Autonome;;
+CENTRE HOSPITALIER DEPARTEMENTAL DE VENDEE;1;;;Apprentissage Profond, Autonome;;85
+CENTRE HOSPITALIER DEPARTEMENTAL VENDEE SITE DE LA ROCHE SUR YON;1;;;Apprentissage Profond, Autonome;;85
+CEREG TERRITOIRES;1;;;Base De Donnée, Equipe Et Collaboration, Git, Programmation, Python, Sql, Tableau;29000;44
+CERTIDEAL;2;Commerce de gros, Distribution;0;Equipe Et Collaboration;;92
+CEVA LOGISTICS;2;;;Autonome, Communication, Créativité, Equipe Et Collaboration, Excel, Git;;13
+CGI;68;ESN, Secteur informatique;1.6;Equipe Et Collaboration;;31
+CHANEL;3;;;Equipe Et Collaboration;;75
+CHAPS VISION;2;;;Anglais, Autonome, Communication, Equipe Et Collaboration, Excel, Français, Git, Python;;75
+CHARLI;1;;;Autonome, Equipe Et Collaboration, Programmation;;92
+CHD VENDEE DRH;1;;;Apprentissage Profond, Autonome;;85
+CHELA;1;;;Anglais, Base De Donnée, Equipe Et Collaboration, Français, Python, Statistique, Tensorflow;;94
+CHERCHE SUSAN DESESPEREMENT;1;;;Autonome;;75
+CHR NUMERIQUE;1;ESN, Secteur informatique;1;Equipe Et Collaboration;;29
+CHRISTIAN DIOR;2;Industrie Manufacturière;7;Anglais, Apprentissage Profond, Communication, Equipe Et Collaboration, Programmation;;92
+CHRONOPOST;1;;;Equipe Et Collaboration, Excel, Programmation, Prévision, Python, Rapport, Tableau;;75
+CHRU DE BREST;1;;;Apprentissage Profond;;29
+CIRIL;3;ESN, Secteur informatique;1;Bases De Données, Equipe Et Collaboration, Statistique;;13
+CIVILS DE LA DEFENSE;1;;;Apprentissage Profond, Communication, Equipe Et Collaboration, Git, Intelligence Artificielle, Programmation, Python, Rapport, Statistique;;75
+CLAMAE;1;;;Base De Donnée, Equipe Et Collaboration, Excel, Français, Modélisation, Python, Sql, Statistique, Tableau;;75
+CLARANET;4;ESN, Secteur informatique;7;Equipe Et Collaboration, Git;;59
+CLEEVEN;1;;;Anglais, Equipe Et Collaboration, Excel, Modélisation, Optimisation, Programmation, Python, Statistique;32500;6
+CLEMENTINE;1;;;Equipe Et Collaboration;;75
+CLS;1;;;Apprentissage Profond;;31
+CLS COLLECTE LOCALISATION SATELLITES;1;Industrie high-tech, Telecom;0;Apprentissage Profond;;31
+CNAV;1;;;Bases De Données, Excel, Sql, Vba;40500;75
+CNES CNES;2;;;Bases De Données, Equipe Et Collaboration, Modélisation, Programmation;;91
+CNP ASSURANCES;6;Assurance, Banque, Finance, NA;0.666666666666667;Equipe Et Collaboration;;92
+CNRS;2;;;Equipe Et Collaboration;34338;38
+COFACE;7;;;Anglais, Bases De Données, Bases De Données Management, Communication, Compétences En Présentation, Excel, Français, Power Bi, Rigueur, Statistique, Visualisation De Donnée;;
+COFIDIS;2;;;Autonome;37500;59
+COGNIZANT;1;;;Power Bi;;75
+COLAS;1;;;Git, Power Bi, Statistique;;54
+COLLINS AEROSPACE;1;;;Equipe Et Collaboration;;27
+COMPTALENTS;1;;;Equipe Et Collaboration;37500;95
+CONSEPT INGENIERIE;1;ESN, Secteur informatique;7;NA;32500;35
+CONSORT;2;ESN, Secteur informatique;1;Communication, Equipe Et Collaboration, Hadoop, Python, Sql;;33
+CONSORTIA;7;;;Communication, Equipe Et Collaboration, Hadoop, Modélisation, Optimisation, Spark, Sql;;
+CONTEXTE;7;;5;Equipe Et Collaboration;;
+CONTINENTAL;2;;;Communication;;31
+COPERNEEC;2;;;Apprentissage Profond;;75
+COUNCIL OF EUROPE DEVELOPMENT BANK;1;;;Anglais, Collecte De Données, Excel, Français, Power Bi, Python, Rapport, Rigueur, Sql, Statistique, Tableau;;75
+CPAM DE LA MARNE;1;;;Bases De Données, Equipe Et Collaboration, Excel, Power Bi, Programmation, Rigueur, Sql, Statistique, Tableau, Vba;28000;51
+CREDIT AGRICOLE;25;;1.8;Equipe Et Collaboration;50000;75
+CREDIT AGRICOLE INFRASTRUCTURE PLATEFORM;1;Assurance, Banque, Finance;1;Equipe Et Collaboration;;34
+CRITEO;2;Communication, Internet, Média, NA;;Communication;;75
+CS;9;ESN, Secteur informatique;5.44444444444445;NA;;64
+CYLLENE;28;;4;Autonome, Aws, Azure, Equipe Et Collaboration, Python, Sql;48750;
+D3S;1;;;Apprentissage Profond;65000;38
+DALKIA;1;;;Equipe Et Collaboration, Excel, Rapport, Rigueur, Sql;;49
+DANEM PEOPLE FRANCE;2;;;Equipe Et Collaboration, Français, Git, Google Cloud, Python, Sql, Tableau;82500;75
+DANONE;5;;0;Equipe Et Collaboration;;75
+DASSAULT;12;;;Equipe Et Collaboration;;78
+DATA RECRUTEMENT;46;;;Equipe Et Collaboration;45000;75
+DATADOG;3;;;Créativité, Equipe Et Collaboration, Excel, Git;;75
+DATAFABIO;1;;;Apprentissage Profond;;94
+DATAIKU;1;;;Communication;;75
+DATAKHI;1;;;Rapport;45000;59
+DATASCIENTEST;17;;1.5;Autonome;36833.3333333333;
+DATAWORDS;1;ESN, Secteur informatique;;Rapport;;92
+DAVIDSON;11;ESN, Secteur informatique;1;NA;39812.5;35
+DAVRICOURT;5;ESN, Secteur informatique;;Equipe Et Collaboration;;59
+DECIDEOM;1;;;Aws, Azure, Base De Donnée, Equipe Et Collaboration, Français, Power Bi, Programmation, Python, Sql, Statistique, Tableau;45000;59
+DECILIA;1;;;Equipe Et Collaboration;41500;92
+DEEZER;3;;0;Visualisation De Donnée;;75
+DELAWARE;2;;;Equipe Et Collaboration;;59
+DELOITTE;8;;0.333333333333333;Anglais, Autonome, Equipe Et Collaboration, Python, Sql, Statistique;;92
+DEMETER;2;Services aux Entreprises, NA;1;Excel, Modélisation, Python, Spark, Statistique;60000;92
+DEPARTEMENT DE SAONEETLOIRE;1;;;Equipe Et Collaboration;;
+DEPARTEMENT DU VALDEMARNE;1;;;Bases De Données;;
+DESCARTES UNDERWRITING;11;Assurance, Banque, Finance;0;Communication;;75
+DEVOTEAM;3;ESN, Secteur informatique;;Equipe Et Collaboration, Git;;92
+DGTL PERFORMANCE;2;ESN, Secteur informatique;;Anglais, Autonome, Azure, Bases De Données, Curiosité, Power Bi, Sql;;78
+DIALONCE;1;;;Apprentissage Profond, Equipe Et Collaboration;;75
+DIAMIDEX;1;;;Apprentissage Profond;40000;
+DIGIDIZ STAFF GO;1;;;Autonome, Equipe Et Collaboration;;68
+DIGIWIDE;1;;;Equipe Et Collaboration;;33
+DIOTSIACI;1;Assurance, Banque, Finance;1;Equipe Et Collaboration, Rapport;50000;75
+DIRECTION GENERALE DE LARMEMENT;1;;;Communication, Equipe Et Collaboration, Python, Visualisation De Donnée;;35
+DIRECTION INTERMINISTERIELLE DU NUMERIQUE DINUM SERVICE DU PREMIER MINISTRE;7;;;Bases De Données, Equipe Et Collaboration, Git, Python, Rigueur, Spark;;
+DOCAPOSTE;4;ESN, Secteur informatique;1;Equipe Et Collaboration;;69
+DOCARET;1;;;Bases De Données, Communication, Equipe Et Collaboration, Excel, Python, Vba;44000;33
+DOCTOLIB;2;;;Anglais, Apprentissage Profond, Equipe Et Collaboration, Natural Language Processing;;75
+EASY CASH;1;;;Curiosité, Equipe Et Collaboration, Git, Programmation, Python, Statistique, Tableau;;
+EASYVISTA;2;ESN, Secteur informatique, NA;0;Equipe Et Collaboration, Français, Natural Language Processing, Prévision, Python, Statistique;;38
+EDENRED;2;Services aux Entreprises, NA;;Equipe Et Collaboration, Git;;92
+EDF;5;Environnement, Secteur Energie;0;Equipe Et Collaboration;;92
+EDHEC BUSINESS SCHOOL;1;;;Anglais, Communication, Equipe Et Collaboration, Excel, Intelligence Artificielle;;59
+EDVANCE;1;;;Anglais, Base De Donnée, Communication, Equipe Et Collaboration, Rigueur;;92
+EFFI GEMY;2;;;Equipe Et Collaboration;;
+EGIS;1;;;Anglais, Bases De Données, Equipe Et Collaboration, Git, Proactif, Rapport, Tableau, Visualisation De Donnée;;69
+EKIMETRICS;6;;0;Equipe Et Collaboration;;75
+EKINO FRANCE;1;;;Anglais, Aws, Equipe Et Collaboration, Français, Hadoop, Modélisation, Programmation, Python, Spark, Sql, Statistique, Tableau;;93
+EKKIDEN;2;ESN, Secteur informatique;;Autonome;;75
+ELAP;1;;;Autonome;;75
+ELECLERC;1;;;Autonome, Equipe Et Collaboration, Proactif;;40
+ELIS;1;;;Anglais, Communication, Equipe Et Collaboration, Rapport, Tableau;;92
+ELSYS DESIGN;1;;;Equipe Et Collaboration;;35
+EMERTON;3;;;Communication;;75
+ENDRESS HAUSER FRANCE;1;;;Equipe Et Collaboration, Français, Git, Optimisation, Power Bi, Rapport;;68
+ENDRIX;1;Assurance, BEP, Banque, CAP, Finance;;Equipe Et Collaboration;;69
+ENEDIS;1;;;Equipe Et Collaboration, Rapport, Tableau, Visualisation De Donnée;;69
+ENGIE;11;Environnement, Secteur Energie;0;Equipe Et Collaboration;;92
+ENTERPRISE DIGITAL RESOURCES;1;;;Equipe Et Collaboration;;59
+EQUANCY;1;;;Apprentissage Profond;;75
+EQUANS;5;;1;Equipe Et Collaboration, Git;52500;69
+EQUATIV;4;;;Apprentissage Profond, Excel, Python;;75
+ERAMET;1;;;Anglais, Azure, Curiosité, Equipe Et Collaboration, Excel, Français, Gestion De Projets, Git, Python, Rapport, Rigueur, Sql, Statistique, Tensorflow;;78
+ERGOSS LOGICIELS;7;;;Autonome;;
+ESPACE FREELANCE;1;;;Equipe Et Collaboration, Python, Sql, Statistique, Tableau, Visualisation De Donnée;;59
+ESPRIT RH;1;Services aux Entreprises;1;Anglais, Equipe Et Collaboration, Optimisation;;31
+EUREDEN;1;;;Autonome;;29
+EURO INFORMATION;8;Assurance, Banque, Finance, NA;;Autonome;42062.5;67
+EUROFINS;2;Biotechn., Chimie, Industrie Pharmaceutique, NA;;Communication;;2
+EUROPCAR MOBILITY;2;Logistique, Transport;;Communication, Preprocessing, Rapport;;75
+EUROPEAN CAMPING;1;;;Anglais, Communication, Equipe Et Collaboration, Excel, Français, Git, Optimisation, Power Bi, Programmation, Rapport, Sql, Statistique, Tableau;30000;34
+EVANEOS;13;;3;Autonome;;
+EVIDEN;5;ESN, Secteur informatique;7;Communication;;33
+EVOTEO;25;;2.68;Equipe Et Collaboration, Python, Sql, Tableau;44380;
+EVS PROFESSIONNEL;15;;3;Equipe Et Collaboration;;
+EXAKIS NELITE;1;ESN, Secteur informatique;1;Azure, Curiosité, Equipe Et Collaboration, Power Bi;;31
+EXCELCIO;1;;;Equipe Et Collaboration, Excel, Power Bi, Proactif, Sql, Tableau, Visualisation De Donnée;;75
+EXOTEC;4;Industrie high-tech, Telecom;0;Equipe Et Collaboration;;59
+EXPECTRA;2;Assurance, Banque, Finance;1;Optimisation;40000;44
+EXPLEO;10;ESN, Secteur informatique;7;Equipe Et Collaboration;;31
+EXTERNATIC;2;Services aux Entreprises;1;Equipe Et Collaboration, Rapport, Tableau;45000;44
+EXTERNATIC RECRUTEMENT;1;Services aux Entreprises;;NA;;44
+EXTIA;12;ESN, Secteur informatique;;Equipe Et Collaboration;;34
+EY;8;ESN, Secteur informatique;3.5;Rapport;;92
+EYETECH SOLUTIONS;1;;;Equipe Et Collaboration;52500;75
+FABDEV;1;;;Aws, Git, Google Cloud, Python, Seaborn, Tensorflow;;75
+FAIRLY MADE;1;;3;Autonome;;
+FAREVA IT APPS;2;Industrie Manufacturière;7;Collecte De Données, Equipe Et Collaboration, Rapport;;26
+FEDERATION FRANCAISE DE RUGBY;1;;;Bases De Données, Equipe Et Collaboration, Français, Modélisation, Proactif, Programmation, Python, Rapport, Rigueur, Statistique;36400;91
+FIDAL;1;ESN, Secteur informatique;0;Anglais, Communication, Curiosité, Equipe Et Collaboration, Git, Intelligence Artificielle, Rigueur;;75
+FIDERIM DEUX SAVOIE;1;Services aux Entreprises;1;Tableau;35000;74
+FILHETALLARD;1;;;Equipe Et Collaboration, Optimisation, Rapport, Statistique;;
+FINANCE PEOPLE;1;Services aux Entreprises;;Equipe Et Collaboration, Excel, Power Bi, Programmation, Python, Pytorch, Rapport, Statistique, Tensorflow;47500;78
+FINANCEPEOPLE;1;;;Equipe Et Collaboration, Excel, Power Bi, Programmation, Python, Pytorch, Rapport, Statistique, Tensorflow;50000;78
+FINDWAYS;1;;;Base De Donnée, Collecte De Données, Equipe Et Collaboration, Intelligence Artificielle, Programmation;18000;92
+FLYINSTINCT;1;;;Anglais, Equipe Et Collaboration, Français, Intelligence Artificielle, Python, Statistique;;75
+FNAC DARTY;7;Commerce de gros, Distribution;0;Git;;94
+FONDATION POUR LA RECHERCHE MEDICALE;1;;;Azure, Base De Donnée, Bases De Données, Communication, Curiosité, Equipe Et Collaboration, Excel, Français, Git, Power Bi, Rapport, Rigueur, Sql, Statistique;;86
+FOODLES;1;;;Equipe Et Collaboration;;92
+FORTUNEO;1;Assurance, Banque, Finance;;Aws, Equipe Et Collaboration;;29
+FRANCAISE DES JEUX;1;;;Curiosité, Equipe Et Collaboration, Français, Git, Hadoop, Modélisation, Prévision, Python, Rapport, Rigueur, Spark, Sql, Statistique;;92
+FRANFINANCE;1;;;Bases De Données, Français, Power Bi, Programmation, Python, Rapport, Statistique;;92
+FREE;6;Communication, Internet, Média, NA;0;Equipe Et Collaboration;44000;75
+FREE2MOVE;1;;;Autonome, Equipe Et Collaboration;;75
+FREELANCEREPUBLIK;2;;;Anglais, Equipe Et Collaboration, Spark;;59
+FRETBAY;1;;;Autonome;;75
+FRISBEE PROFILING;1;;;Rapport;;92
+GALEC MOUVEMENT ELECLERC;28;;5.5;Equipe Et Collaboration;;
+GALEC SERVICES CENTRAUX;6;Commerce de gros, Distribution;1;Equipe Et Collaboration;;94
+GALERIES LAFAYETTE;2;Commerce de gros, Distribution, NA;0;Apprentissage Profond, Equipe Et Collaboration, Intelligence Artificielle;20966.4;75
+GAMELOFT;2;ESN, Secteur informatique, NA;0;Anglais, Autonome, Communication, Equipe Et Collaboration, Feature Engineering, Français, Git, Matplotlib, Python, Seaborn, Sql;;75
+GAN ASSURANCES;1;;;Equipe Et Collaboration;;92
+GEMY AUTOMOBILES;2;;;Equipe Et Collaboration;;
+GENERALE;6;;;Equipe Et Collaboration, Rapport;;92
+GENERALE SECURITIES SERVICES;1;;;Adaptabilité, Anglais, Communication, Equipe Et Collaboration, Excel, Modélisation, Power Bi, Rigueur, Tableau;;92
+GENERALI;8;;0;Python;;93
+GENERATION;1;;;Equipe Et Collaboration, Excel, Python, Rapport, Statistique, Tableau, Vba;;29
+GENIEM;2;;;Apprentissage Profond;;59
+GEODIS;1;Logistique, Transport;1;Equipe Et Collaboration, Modélisation;;73
+GERFLOR;1;;;Equipe Et Collaboration;;69
+GESER BEST;1;;;Anglais, Bases De Données, C++, Equipe Et Collaboration, Power Bi, Python, Rapport, Résolution De Problèmes, Sql, Statistique, Visualisation De Donnée;33000;33
+GHU PARIS PSYCHIATRIE ET NEUROSCIENCES;1;;;Anglais, Bases De Données, Equipe Et Collaboration, Programmation, Python, Sql, Statistique;;75
+GIP PULSY;1;;;Base De Donnée, Bases De Données, Communication, Equipe Et Collaboration, Modélisation, Programmation, Rapport, Rigueur, Sql, Statistique, Tableau;37500;67
+GRANT THORNTON;4;;0;Equipe Et Collaboration, Sql;;92
+GRESB;1;;;Anglais, Bases De Données, Equipe Et Collaboration, Excel, Python, Sql;;75
+GROUPAGORA;7;ESN, Secteur informatique;2.66666666666667;Rapport;50000;64
+GROUPAMA;12;;0.5;Equipe Et Collaboration;50000;75
+GROUPE ADP;4;Logistique, Transport, NA;0;Equipe Et Collaboration;;94
+GROUPE ALPHA;2;;;Bases De Données, Equipe Et Collaboration, Modélisation, Optimisation, Rapport, Sql, Tableau;;75
+GROUPE APTENIA;2;;;Anglais, Apprentissage Profond, Equipe Et Collaboration, Optimisation, Prévision;;75
+GROUPE BAYARD PRESSE;1;;;Autonome;;92
+GROUPE BEAUMANOIR SIEGE;1;;;Autonome;;35
+GROUPE CREATIVE;2;ESN, Secteur informatique;1;Equipe Et Collaboration, Git, Programmation, Python, Rapport, Spark, Sql;45000;59
+GROUPE DUBREUIL;2;Commerce de gros, Distribution, NA;0;Apprentissage Profond;;85
+GROUPE LE DUFF;1;;;Autonome;;35
+GROUPE M6;1;;;Equipe Et Collaboration;;92
+GROUPE VILAVI;1;Assurance, Banque, Finance;1;Git, Modélisation, Statistique;;93
+GROUPEMENT DINTERET PUBLIC PULSY;1;;;Base De Donnée, Bases De Données, Communication, Equipe Et Collaboration, Modélisation, Programmation, Rapport, Rigueur, Sql, Statistique, Tableau;;67
+GROUPEMENT LES MOUSQUETAIRES;4;Commerce de gros, Distribution, NA;0;Equipe Et Collaboration;21466.6666666667;92
+GROUPM;1;Communication, Internet, Média;;Equipe Et Collaboration;;75
+GUEUDET;1;;;Bases De Données, Equipe Et Collaboration, Git, Sql, Statistique;;80
+GUEUDET 1880;1;Industrie Auto, Meca, Navale;;NA;;80
+HAGER;1;;;Anglais, Python, Rigueur, Sql, Statistique, Tableau;;33
+HARDIS;7;ESN, Secteur informatique;4.2;Equipe Et Collaboration;;38
+HARMONIE MUTUELLE;1;;;Autonome;;35
+HARRY HOPE;3;Services aux Entreprises;1;Equipe Et Collaboration;46666.6666666667;21
+HAVAS;3;;7;Equipe Et Collaboration;;92
+HAYS;9;ESN, Secteur informatique;0.888888888888889;Equipe Et Collaboration;44937.5;31
+HEALTH DATA HUB;7;;;Apprentissage Profond;;
+HELLO WATT;1;Environnement, Secteur Energie;0;Equipe Et Collaboration, Rapport;;75
+HELLOFRESH;2;Commerce de gros, Distribution, NA;1;Proactif, Python, Sql;;75
+HIMYDATA;2;;;Equipe Et Collaboration;;6
+HIPPY INDIENOV;1;;;Equipe Et Collaboration;;13
+HIPTO;7;;;Aws, Curiosité, Equipe Et Collaboration, Optimisation, Programmation, Python, Sql, Tableau;;
+HITACHI SOLUTIONS;1;;;Equipe Et Collaboration;;75
+HOLCIM;2;;;Programmation;;38
+HOPITAL CAVALE BLANCHE;1;;;Apprentissage Profond;;29
+HOPITAL NATIONAL DES QUINZEVINGTS;2;;;Equipe Et Collaboration, Rapport;;75
+HOVE;7;;;Anglais, Equipe Et Collaboration, Français, Power Bi, Rapport, Sql, Tableau;;
+HP;1;;;Anglais, Excel, Power Bi, Prévision, Python, Rapport, Sql, Statistical Modeling;;38
+HR TEAM;3;ESN, Secteur informatique;1;Equipe Et Collaboration;42500;44
+HSBC;2;Assurance, Banque, Finance, NA;;Autonome;;92
+IADVIZE;1;;;Autonome, Français;;44
+IBM;1;;;Equipe Et Collaboration;;92
+IKIGAI;1;;;Equipe Et Collaboration, Power Bi, Programmation, Rapport, Tableau;36500;69
+ILIAD;3;Communication, Industrie high-tech, Internet, Média, Telecom;0;Equipe Et Collaboration;;75
+IMT NORD EUROPE;1;Enseignement, Formation;0;Apprentissage Profond;;59
+IN EXTENSO;2;ESN, Secteur informatique;0.5;Aws, Azure, Equipe Et Collaboration, Git, Power Bi, Python, Sql, Tableau;;75
+INEAT;2;ESN, Secteur informatique;;Equipe Et Collaboration, Git, Modélisation, Power Bi, Sql;;59
+INERIS;4;Environnement, Secteur Energie;1;Français;;60
+INETUM;31;ESN, Secteur informatique;7;Equipe Et Collaboration;;93
+INEX BET;1;;;Anglais, Base De Donnée, Communication, Excel, Programmation, Python, Pytorch, Rigueur, Tableau, Tensorflow;13200;93
+INFOGENE;10;ESN, Secteur informatique;1;Equipe Et Collaboration, Rapport;55875;92
+INFOPRO DIGITAL;1;;;Autonome;;92
+INFORMATISTS;3;;;Base De Donnée, Sql;;10
+INFOTEL;4;ESN, Secteur informatique;7;Hadoop, Sql;49000;29
+INGENIANCE;2;ESN, Secteur informatique;;Aws, Azure, Equipe Et Collaboration;;92
+INLI;1;;;Equipe Et Collaboration, Gestion De Projets, Power Bi, Rapport, Sql, Statistique;;92
+INNOVA SOLUTIONS;1;ESN, Secteur informatique;7;Equipe Et Collaboration;;6
+INNOVELA;26;;2;Autonome;61250;
+INPOST;1;;;Anglais, Base De Donnée, Bases De Données, Equipe Et Collaboration, Excel, Power Bi, Python, Rapport, Sql;;59
+INRAE;1;;;Base De Donnée, Equipe Et Collaboration, Git, Intelligence Artificielle, Modélisation;29900;44
+INRIA;3;;;Equipe Et Collaboration;;13
+INSITOO;4;;;Equipe Et Collaboration;;59
+INSTITUT DU CERVEAU ET DE LA MOELLE EPINIERE;2;;;Communication, Programmation;40000;75
+INSTITUT DU CERVEAU ET DE LA MOELLE EPINIERE ET DE LA MOELLE EPINIERE;1;;;Bases De Données, Communication, Equipe Et Collaboration, Programmation, Python, Statistique, Version Control;;75
+INVENTING FOR LIFE;1;Biotechn., Chimie, Industrie Pharmaceutique;;Equipe Et Collaboration, Statistique;;75
+INVIVO DIGITAL FACTORY;2;Industrie Agro-alimentaire;7;Equipe Et Collaboration;;92
+INVIVOO;1;;;Equipe Et Collaboration, Excel, Optimisation, Python, Sql, Tableau, Vba, Visualisation De Donnée;55000;75
+IPSEN PHARMA;1;;;Equipe Et Collaboration, Natural Language Processing, Programmation, Python, Visualisation De Donnée;;92
+IRT JULES VERNE;2;Industrie Manufacturière, NA;;Equipe Et Collaboration, Intelligence Artificielle;;44
+ITM STATS;1;ESN, Secteur informatique;;Autonome;;75
+ITNOVEM;1;ESN, Secteur informatique;;Aws, Azure, Equipe Et Collaboration, Git, Proactif;;93
+ITW;1;;;Anglais, Bases De Données, Equipe Et Collaboration, Excel, Power Bi, Programmation, Python, Rapport, Sql, Statistique, Vba;;26
+IVALUA;1;;;Apprentissage Profond, Equipe Et Collaboration, Natural Language Processing;;91
+IZIWORK;3;;;Anglais, Excel, Python, Sql;44166.6666666667;44
+JCDECAUX;6;Communication, Industrie Manufacturière, Internet, Média;1.75;Equipe Et Collaboration;;92
+JOB STAGING;2;ESN, Industrie high-tech, Secteur informatique, Telecom;7;Autonome, Equipe Et Collaboration;;56
+JOBMANIA;1;Communication, Internet, Média, Services aux Entreprises;1;Curiosité, Equipe Et Collaboration, Git, Rapport;12000;75
+JOHNSON JOHNSON;1;;;Apprentissage Profond, Communication;;92
+KAIBEE;1;;;Autonome, Equipe Et Collaboration, Programmation;;75
+KAINO;3;;;Equipe Et Collaboration;65000;75
+KANBIOS;12;;3.5;Anglais, Autonome, Equipe Et Collaboration, Excel;;
+KAROS MOBILITY;7;;3;Equipe Et Collaboration;50000;
+KELKOO;1;ESN, Secteur informatique;;Apprentissage Profond, Equipe Et Collaboration, Natural Language Processing;;38
+KELLY SERVICES;1;Biotechn., Chimie, Industrie Pharmaceutique;1;Equipe Et Collaboration;;91
+KEOLIS TOURS;1;;;Equipe Et Collaboration;;37
+KERING;5;;;Anglais;;75
+KICKLOX;14;;;Français;68500;78
+KLARYS;1;;;Apprentissage Profond;;35
+KLESIA;1;;;Autonome;;75
+KLINT CONSULTING;7;;5;Equipe Et Collaboration, Rapport;65000;
+KNOW YOUR PEOPLE;1;;;Autonome, Rapport;42500;59
+KPMG;15;;0.428571428571429;Equipe Et Collaboration;;92
+KROISSANCE;1;;;Azure, Communication, Equipe Et Collaboration, Français, Git, Power Bi, Python, Rigueur, Sql;40000;31
+KRYOLE;2;Commerce de gros, Distribution, Industrie Manufacturière;0;Equipe Et Collaboration, Tableau;;75
+KUMO;1;;;Base De Donnée, Equipe Et Collaboration, Excel, Programmation, Rapport, Tableau, Vba;9000;92
+KURIBAY;1;Industrie Auto, Meca, Navale;1;Equipe Et Collaboration;;69
+KYRIBA;2;Assurance, Banque, Finance, NA;;Communication;;92
+LA BANQUE POSTALE;5;;;Apprentissage Profond;;75
+LA BCI;1;;;Base De Donnée, Communication, Créativité, Curiosité, Equipe Et Collaboration, Excel, Modélisation, Power Bi, Programmation, Python, Rapport, Rigueur, Serieux, Sql, Statistique, Tableau;;
+LA BELLE ILOISE;1;;;Base De Donnée, Bases De Données, Equipe Et Collaboration, Excel, Git, Optimisation, Prévision, Rapport, Rigueur, Sql, Statistique, Tableau;;56
+LA POSTE;7;Logistique, Transport;1;Equipe Et Collaboration;;93
+LA RELEVE;7;;4;Communication, Equipe Et Collaboration, Git, Modélisation, Statistique;60000;
+LA SECU RECRUTE;6;;;Equipe Et Collaboration, Statistique;42550;75
+LACOSTE;1;Commerce de gros, Distribution;;NA;;75
+LALLEMAND;1;;;Communication, Equipe Et Collaboration, Excel, Git, Programmation, Statistique, Tableau;;15
+LANGTON HOWARTH;1;;;Anglais, Autonome, Communication, Python;;75
+LATECOERE;1;;;Equipe Et Collaboration, Excel, Modélisation, Optimisation, Programmation, Python, Spark, Sql, Statistique, Tableau;;31
+LCL;6;Assurance, Banque, Finance, NA;0.333333333333333;Equipe Et Collaboration;;94
+LE BON CANDIDAT RECRUTEMENT;1;Services aux Entreprises;;Anglais, Communication, Equipe Et Collaboration, Excel, Intelligence Artificielle;45000;94
+LE GROUPE GCF;1;;;Anglais, Bases De Données, Communication, Curiosité, Equipe Et Collaboration, Excel, Français, Rapport, Rigueur, Statistique, Tableau;;67
+LE TELEGRAMME;4;Communication, Internet, Média;1;Equipe Et Collaboration;42500;29
+LEFEBVRE SARRUT;1;;;Equipe Et Collaboration, Excel, Français, Python, Rigueur, Statistique;;92
+LEHIBOU;1;;;Anglais, Equipe Et Collaboration, Git, Proactif, Rapport;;92
+LENOVO FRANCE;1;Industrie high-tech, Telecom;;Git;;40
+LESAFFRE;3;Industrie Agro-alimentaire;;Communication;;59
+LHH RECRUITMENT SOLUTIONS;3;Services aux Entreprises;7;Autonome, Equipe Et Collaboration;43000;33
+LIBERTY RIDER;44;;;Autonome;;31
+LICORNE SOCIETY;2;;;Aws, Azure, Bases De Données, Equipe Et Collaboration, Git, Optimisation, Power Bi, Prévision, Python, Rapport, Sql, Tableau, NA;;75
+LIEBHERRAEROSPACE TOULOUSE;2;Aérospatial, Industrie Aéronautique, NA;1;Equipe Et Collaboration, Git, Optimisation;;31
+LIMAGRAIN;2;Industrie Agro-alimentaire, NA;1;Equipe Et Collaboration, Git, Prévision, Rigueur, Statistique;;63
+LINCOLN;1;;;Apprentissage Profond;;69
+LINKEDIN JOB WRAPPING;1;;;Equipe Et Collaboration;;75
+LITY;1;;;Equipe Et Collaboration, Intelligence Artificielle, Python, Statistique;90000;75
+LIVINGPACKETS;21;;3;Autonome, Equipe Et Collaboration;41666.6666666667;
+LNE;1;;;Autonome;;75
+LOC MARIA BISCUITS;2;Industrie Agro-alimentaire, NA;7;Equipe Et Collaboration;;22
+LOPCOMMERCE;1;;;Autonome, Rapport;44250;75
+LORGANISATION MONDIALE DE LA SANTE ANIMALE OIE;1;;;Equipe Et Collaboration;;75
+LOUVRE HOTELS;1;;;Anglais, Equipe Et Collaboration, Power Bi, Rapport, Tableau;;92
+LR TECHNOLOGIES NORD;2;ESN, Secteur informatique, Services aux Entreprises;1;Equipe Et Collaboration;42500;59
+LSA COURTAGE;44;;;Autonome;;92
+LYDIA SOLUTIONS;44;;;Communication;;75
+LYNX RH;1;Services aux Entreprises;;Autonome;;49
+MAESTRIA;2;Services aux Entreprises;1;Azure, Equipe Et Collaboration, Intelligence Artificielle, Programmation, Python, Spark;46500;6
+MAGASINS VERT POINT VERT;1;Commerce de gros, Distribution;0;Equipe Et Collaboration, Git, Tableau;;29
+MAIF;2;;;Equipe Et Collaboration;;79
+MALAKOFF HUMANIS;4;;;Autonome, Equipe Et Collaboration;;75
+MALT;1;Services aux Entreprises;0;Anglais, Bases De Données, Communication, Curiosité, Proactif, Python, Rigueur, Sql, Visualisation De Donnée;;75
+MANAGING;2;Services aux Entreprises;;Equipe Et Collaboration;;67
+MANE;2;Industrie Pétrolière, Pétrochimie, NA;;Autonome;;6
+MANUTAN;2;Communication, Internet, Média, NA;;Apprentissage Profond, Equipe Et Collaboration, Optimisation;;95
+MARCEL ROBBEZ MASSON;1;;;Anglais, Base De Donnée, Bases De Données, Equipe Et Collaboration, Programmation, Rapport, Rigueur, Sql, Statistique;40200;34
+MARGO CONSEIL;1;;;Apprentissage Profond;;75
+MASER ENGINEERING;2;Services aux Entreprises;1;NA;32500;31
+MATMUT;2;Assurance, Banque, Finance, NA;1;Apprentissage Profond;;76
+MAZARS;3;ESN, Secteur informatique;7;Equipe Et Collaboration, Tableau;;92
+MBDA FRANCE;1;;;Anglais, Equipe Et Collaboration, Programmation, Python, Visualisation De Donnée;;18
+MBR PARTNERS;1;;;Communication;;75
+MCKINSEY COMPANY;2;;;Apprentissage Profond, Communication;;75
+MEETIC;1;Communication, Internet, Média;;Apprentissage Profond, Communication;;75
+MEILLEURTAUX;1;Assurance, Banque, Communication, Finance, Internet, Média;;Adaptabilité, Azure, Bases De Données, Equipe Et Collaboration, Git, Optimisation, Python, Rapport;;75
+MERITIS;3;ESN, Secteur informatique;;Equipe Et Collaboration, Optimisation, Prévision;;75
+META;2;;;Apprentissage Profond;;75
+METRIXX;1;;;Git, Optimisation, Rapport, Tableau;;69
+METYIS;1;;;Communication;;75
+MFG LABS;44;;;Anglais, Aws, Equipe Et Collaboration, Français, Hadoop, Modélisation, Programmation, Python, Spark, Sql, Statistique, Tableau;;77
+MGEN;1;;;Equipe Et Collaboration;;75
+MICHAEL PAGE;12;Services aux Entreprises;0;Equipe Et Collaboration;56450;92
+MICHELIN;5;;0;Equipe Et Collaboration;16260;63
+MILLION VICTORIES;7;;;A/B Testing, Anglais, Autonome, Bases De Données, Créativité, Proactif, Programmation, Python, Sql;;
+MIRAKL;5;Communication, ESN, Internet, Média, Secteur informatique;;Equipe Et Collaboration;;75
+MIRAKL LABS;1;;;Apprentissage Profond, Autonome, Equipe Et Collaboration;;33
+MOBILIZE FINANCIAL SERVICES;1;Assurance, Banque, Finance, Industrie Auto, Meca, Navale;1;Equipe Et Collaboration;;93
+MONABANQ;1;;;Excel, Sql, Statistique, Tableau;10056;59
+MONDIAL RELAY;1;Logistique, Transport;7;Aws, Tableau;;59
+MONMARCHEFR;1;;;Autonome;;69
+MORGAN PHILIPS EXECUTIVE SEARCH;2;Biotechn., Chimie, Industrie Pharmaceutique;7;Equipe Et Collaboration;;92
+MOSICA;2;ESN, Secteur informatique;1;Aws, Equipe Et Collaboration, Hadoop, Programmation, Python, Spark;;44
+MP DATA;38;;2.5;Apprentissage Profond, Git, Python;51057.3529411765;
+MSD;2;;;Equipe Et Collaboration;;75
+MYDRAL;5;ESN, Secteur informatique;7;Equipe Et Collaboration;54875;75
+NANTES UNIVERSITE;1;;;Anglais, Equipe Et Collaboration, Français, Rapport;34002;44
+NATIXIS;2;;;Equipe Et Collaboration;;75
+NATURE ET DECOUVERTES;1;;;Equipe Et Collaboration;;78
+NAVA ENGINEERING;1;Aérospatial, ESN, Industrie Aéronautique, Secteur informatique;7;Equipe Et Collaboration, Hadoop;48000;31
+NEO SOFT;1;;;Bases De Données, Equipe Et Collaboration, Excel, Git, Modélisation, Power Bi, Programmation, Python, Rapport, Sql, Statistique, Tableau;;75
+NEOXIA;2;ESN, Secteur informatique;;Apprentissage Profond;;75
+NESTLE OPERATIONAL SERVICES WORLDWIDE;3;;;Equipe Et Collaboration, Rapport;;75
+NEXORIS;1;;;Anglais, Communication, Equipe Et Collaboration, Power Bi, Sql;;75
+NEXTEAM;1;;;Autonome;;64
+NEXTON CONSULTING FR;1;;;Equipe Et Collaboration, Git;;59
+NIJI;1;;;Anglais, Communication, Equipe Et Collaboration, Git, Optimisation, Power Bi, Python, Spark, Sql, Tableau, Visualisation De Donnée;;69
+NISSAN;1;Industrie Auto, Meca, Navale;;Communication;;78
+NODYA;4;ESN, Secteur informatique;7;Equipe Et Collaboration;66833.3333333333;13
+NORGAY IT DIGITAL SERVICES;6;ESN, Secteur informatique;1;Modélisation;42300;44
+NOVA CONSULTING;1;;;Base De Donnée, Bases De Données, Equipe Et Collaboration, Excel, Modélisation, Optimisation, Python, Sql, Statistique;;75
+NOVENCIA;4;;;Equipe Et Collaboration;;75
+NOVO NORDISK;1;;;Anglais, Base De Donnée, Bases De Données, Equipe Et Collaboration, Excel, Git, Intelligence Artificielle, Modélisation, Optimisation, Programmation, Python, Résolution De Problèmes, Sql, Statistique;;28
+NUMBERLY;4;Communication, Internet, Média;;Anglais, Autonome, Curiosité, Python, Sql, Visualisation De Donnée;;75
+OBJECTWARE;4;ESN, Secteur informatique;1;Equipe Et Collaboration, Sql;;44
+OCDE;2;;;Equipe Et Collaboration;70263.84;75
+OCTO TECHNOLOGY;1;;;Apprentissage Profond;;75
+OCTOPUS ENERGY;3;;;Autonome;;75
+OGF;3;BEP, CAP, Particuliers, Services aux Personnes;;Azure, Equipe Et Collaboration, Sql;56750;75
+OKAIDI;1;;;A/B Testing, Curiosité, Equipe Et Collaboration, Git, Optimisation, Rigueur, Sql, Statistique;44000;59
+OMNICIEL;2;ESN, Secteur informatique, Services aux Entreprises;1;Equipe Et Collaboration, Rapport, Tableau, Visualisation De Donnée;44000;13
+ONEPOINT;10;ESN, Secteur informatique;0;Anglais, Equipe Et Collaboration;;75
+ONEY;1;;;Equipe Et Collaboration, Git, Programmation, Python, Sql, Statistique;;59
+OPEN;2;ESN, Secteur informatique;;Aws, Azure, Equipe Et Collaboration, Git, Python, Spark;;92
+OPERA CONSEIL;1;;;Apprentissage Profond;;69
+OPPBTP;2;BTP;7;Equipe Et Collaboration;;92
+OPTEAM IS;1;;;Natural Language Processing;;75
+ORANGE;7;ESN, Secteur informatique;2;Equipe Et Collaboration;;13
+ORANO;10;;0.666666666666667;Equipe Et Collaboration;;
+ORNIKAR;1;;;Communication, Equipe Et Collaboration, Français, Google Cloud, Modélisation, Optimisation, Python, Sql, Statistique;;75
+ORTEC;46;;0;Equipe Et Collaboration;;31
+ORTHOGRID SYSTEMS;2;ESN, Secteur informatique;;Apprentissage Profond;;67
+OSE ENGINEERING;7;;;Autonome;;
+OTTEO;2;ESN, Secteur informatique;1;Equipe Et Collaboration, Google Cloud, Modélisation;47000;59
+OUEST FRANCE;3;Communication, Internet, Média;0;Equipe Et Collaboration;;35
+OVHCLOUD;1;ESN, Secteur informatique;;Anglais, Equipe Et Collaboration, Excel, Optimisation;;59
+PACIFIC PECHE;1;;;Bases De Données, Equipe Et Collaboration, Excel, Français, Git, Optimisation, Programmation, Rapport, Tableau;;34
+PAIE RH SOLUTIONS;1;;;Equipe Et Collaboration, Rapport, Sql, Vba;;64
+PAPERNEST;46;;;Anglais;;75
+PARISSACLAY CENTER FOR DATA SCIENCE;1;;;Equipe Et Collaboration, Programmation, Python;;91
+PARTNAIRE;1;Services aux Entreprises;7;Equipe Et Collaboration;72500;45
+PEOPLE WAY;1;;;Equipe Et Collaboration;;75
+PERNOD RICARD;9;;;Git;;75
+PERSE BEAUTY;1;;;Autonome, Equipe Et Collaboration;;75
+PERSUADERS RH;2;Services aux Entreprises;7;Equipe Et Collaboration;;92
+PHILIPS;1;;;Anglais, Equipe Et Collaboration, Excel, Modélisation, Python;;75
+PICTARINE;1;;;Equipe Et Collaboration;;
+PIGMENT;1;ESN, Secteur informatique;;Apprentissage Profond, Communication;;
+PIXIE SERVICES FRANCE;4;ESN, Secteur informatique;7;Equipe Et Collaboration;;59
+PMU;3;Service public des collectivités territoriales;1;Equipe Et Collaboration;60000;75
+POLARYS;2;;;Anglais, Apprentissage Profond, Equipe Et Collaboration, Rigueur;;92
+POLYCONSEIL;4;ESN, Secteur informatique, NA;0;Aws, Equipe Et Collaboration, Excel, Français, Git, Modélisation, Optimisation, Programmation, Python;;75
+POSTULER;3;Services aux Entreprises;3;Equipe Et Collaboration;;57
+PRICEHUBBLE;7;ESN, Immobilier, Secteur informatique;;Anglais, Python, Spark;;75
+PRO BTP GROUPE;1;;;Equipe Et Collaboration;45000;94
+PROCTER GAMBLE;1;;;Communication;;75
+PROFIL;9;;;Equipe Et Collaboration;52500;75
+PROMOVACANCES;1;Hôtellerie, Loisirs, Restauration, Tourisme;1;Equipe Et Collaboration, Français;;75
+PROSOL;1;;;Autonome, Equipe Et Collaboration;;69
+PROXIEL;3;ESN, Secteur informatique;1;Equipe Et Collaboration;40000;13
+PSA;4;Commerce de gros, Distribution;0;Equipe Et Collaboration;;78
+PUBLICIS GROUPE;1;;;Azure, Git, Intelligence Artificielle, Modélisation, Optimisation, Python, Spark, Statistique;;75
+PUBLICIS SAPIENT;1;Communication, Internet, Média;;Bases De Données, Git;;75
+PUR;1;;;Apprentissage Profond;;75
+PWC;16;ESN, Secteur informatique;;Equipe Et Collaboration;;92
+QARE;1;;;Equipe Et Collaboration;;75
+QIMA;1;;;Rapport;;
+QUADRA INFORMATIQUE;1;;;Communication, Equipe Et Collaboration, Rapport, Rigueur;;67
+QUANTILIA;1;;;Anglais, Bases De Données, Equipe Et Collaboration, Python;;6
+QUANTUM SURGICAL;2;;;Apprentissage Profond;;34
+RADES;7;;3;Anglais, Curiosité, Equipe Et Collaboration, Excel;47500;
+RAKAM;2;Services aux Entreprises;;NA;;92
+RAKUTEN;1;;;Apprentissage Profond;;75
+RD2 CONSEIL;2;;;Equipe Et Collaboration;;69
+REACTIS SERVICES;3;ESN, Secteur informatique;1;Rapport;50000;94
+RECONOMIA;1;;;Autonome, Equipe Et Collaboration;;59
+RECRULAB;1;;;Autonome;50000;69
+RECRUTONS ENSEMBLE;1;;;Autonome;;13
+RENAULT;7;;;Anglais;;78
+REPROIT;2;Commerce de gros, Distribution, ESN, Secteur informatique;7;Equipe Et Collaboration;32440;59
+RHODIUM;1;;;Natural Language Processing;;75
+ROCHE;1;;;Autonome;;75
+ROULLIER;1;Industrie Agro-alimentaire;0;Equipe Et Collaboration, Optimisation, Rapport;;35
+RS TELECOM;1;;;Equipe Et Collaboration;;75
+RSM;2;Assurance, Banque, Finance;0;Excel, Français, Optimisation, Rapport;;44
+RTE INTERNATIONAL;1;;;Communication, Natural Language Processing, Programmation;;92
+SAEGUS;7;;4;Anglais, Azure, Equipe Et Collaboration, Excel, Français, Modélisation, Power Bi, Python, Sql, Tableau;54000;
+SAFILO;1;;;Equipe Et Collaboration;;92
+SAFRAN;23;;2.33333333333333;Equipe Et Collaboration;;77
+SAINT GOBAIN;2;;;Anglais, Equipe Et Collaboration, Français, Statistique;;92
+SAINT MACLOU;2;;;Equipe Et Collaboration, Rapport, Sql;34500;59
+SALOMON;2;;;Autonome;;74
+SANOFI;7;Biotechn., Chimie, Industrie Pharmaceutique;;Anglais;;69
+SATT SUD EST;1;;;Apprentissage Profond;35500;13
+SAUR;3;Environnement, Secteur Energie;4;Apprentissage Profond, Autonome;;75
+SCALIAN;2;Association, ESN, Santé, Secteur informatique, Social;7;Sql, Tableau;40000;35
+SCC;1;ESN, Secteur informatique;7;Equipe Et Collaboration;;92
+SCHNEIDER;5;;;Communication;;6
+SCIENCE ME UP;1;;;Anglais, Communication, Curiosité, Equipe Et Collaboration, Python;;
+SCOR;2;;;Apprentissage Profond, Natural Language Processing;;75
+SEB;2;Commerce de gros, Distribution, NA;0;Autonome;;53
+SEGULA TECHNOLOGIES;4;Industrie Auto, Meca, Navale, NA;3.5;Autonome, Equipe Et Collaboration;;91
+SENSE4DATA;1;;;Anglais, Communication, Equipe Et Collaboration, Excel, Français, Git, Modélisation, Programmation, Python, Sql, Statistique;;33
+SEPHORA;2;;;Equipe Et Collaboration;;45
+SEPT LIEUES;5;;7;Equipe Et Collaboration;64900;75
+SERCEL;1;;;Equipe Et Collaboration, Excel, Python, Statistique;;44
+SERMA TECHNOLOGIES;1;;;Equipe Et Collaboration;;33
+SERVIER;1;Biotechn., Chimie, Industrie Pharmaceutique;;Autonome;;92
+SEYOS;11;ESN, Secteur informatique;1;Equipe Et Collaboration;56363.6363636364;67
+SFR;6;Industrie high-tech, Telecom;0;Equipe Et Collaboration;;75
+SHIFT TECHNOLOGY;2;;;Anglais, Français, Statistique;;75
+SHIPPEO;44;;;Anglais, Equipe Et Collaboration, Excel, Français, Nettoyage De Donnée, Proactif, Rapport, Rigueur, Tableau;;75
+SHOPOPOP;1;Particuliers, Services aux Personnes;1;Equipe Et Collaboration, Git, Modélisation, Optimisation, Python, Sql;39500;44
+SHORTWAYS;1;;;Autonome, Rapport;;53
+SHOWROOMPRIVE;1;Communication, Internet, Média;0;Curiosité, Equipe Et Collaboration, Modélisation, Python, Rigueur, Sql, Statistique, Tensorflow;;93
+SIA PARTNERS;2;Services aux Entreprises, NA;;Anglais, C++, Equipe Et Collaboration, Excel, Français, Intelligence Artificielle, Optimisation, Programmation, Prévision, Python, Statistique;;75
+SIACI SAINT HONORE;2;;;Equipe Et Collaboration;;75
+SIEGE DE LAPHP;1;;;Equipe Et Collaboration;;75
+SIGHTENGINE;1;;;Python, Pytorch, Tensorflow;;
+SII;25;ESN, Secteur informatique;4.14285714285714;Equipe Et Collaboration;38854;59
+SILAMIR;1;;;Equipe Et Collaboration, Rigueur;;75
+SILKHOM;3;Services aux Entreprises;;Equipe Et Collaboration, Power Bi, Sql;46666.6666666667;56
+SIMCURE;1;;;Apprentissage Profond;;34
+SIPLEC;1;;;Equipe Et Collaboration, Excel, Français, Tableau;;94
+SIZE UP CONSULTING;2;ESN, Secteur informatique;7;Equipe Et Collaboration, Gestion De Projets;;75
+SKIILS;17;;3;Equipe Et Collaboration;59750;
+SMARTEO;1;;;Equipe Et Collaboration;;
+SNCF;2;;;Equipe Et Collaboration, Rapport;;75
+SNCF CONNECT TECH;4;;;Equipe Et Collaboration;;75
+SOCOMEC;1;;;Anglais, C++, Equipe Et Collaboration, Gestion De Projets, Intelligence Artificielle, Statistique;;67
+SODEBO;1;Industrie Agro-alimentaire;1;Equipe Et Collaboration, Statistique;;85
+SODEXO;44;;;Français;;92
+SOFTEAM;1;;;Anglais, Communication, Equipe Et Collaboration, Intelligence Artificielle, Modélisation, Programmation, Python;;75
+SOGETI;1;;;Azure, Bases De Données, Equipe Et Collaboration, Git, Modélisation, Power Bi, Python, Sql, Statistique;;31
+SOLUTEC;2;ESN, Secteur informatique, NA;;Equipe Et Collaboration, Modélisation, Power Bi, Python, Tableau;;31
+SOMFY;3;;;Equipe Et Collaboration;;74
+SOPRA STERIA;44;ESN, Secteur informatique;5.2;Equipe Et Collaboration;;
+SORARE;1;;;Communication;;75
+SOREDAB;2;Industrie Agro-alimentaire;0;Azure, Curiosité, Equipe Et Collaboration, Git, Optimisation, Python, Sql;;78
+SOYHUCE;2;;;Equipe Et Collaboration;;75
+SPARE PARTS 3D;1;;;Bases De Données, Git, Power Bi, Proactif, Programmation, Python, Sql, Tableau, Version Control, Visualisation De Donnée;;75
+SPARTEO;1;;;Anglais, Autonome, Equipe Et Collaboration, Français, Intelligence Artificielle, Python, Sql;;59
+SQLI;1;ESN, Secteur informatique;0;Equipe Et Collaboration;;76
+STAGES;3;Services aux Entreprises;0.333333333333333;Equipe Et Collaboration;15366.6666666667;92
+STALAVEN;1;;;Equipe Et Collaboration, Prévision, Python;;22
+STELLANTIS;8;;;Equipe Et Collaboration, Git;;78
+STEREOLABS;4;ESN, Secteur informatique, NA;;Equipe Et Collaboration;;75
+STREEM ENERGY;1;;;Apprentissage Profond;;75
+SUEZ;10;;0;Python;;78
+SULLY;1;;;Equipe Et Collaboration, Intelligence Artificielle, Python, Tableau;;38
+SUNTORY BEVERAGE FOOD FRANCE;1;;;Anglais, Aws, Azure, Communication, Equipe Et Collaboration, Excel, Git, Optimisation, Power Bi, Programmation, Python, Rapport, Serieux, Statistique, Tableau;65000;92
+SURICATE IT;1;;;Apprentissage Profond;;75
+SYMPHONYAI;1;;;Apprentissage Profond;;75
+SYNERGIE;1;;;Equipe Et Collaboration;;59
+SYNOPSIA;1;;;Anglais, Azure, Equipe Et Collaboration, Modélisation, Natural Language Processing, Power Bi, Programmation, Python, Sql;50000;75
+SYSTEMATHICS;2;;;Collecte De Données, Python, Visualisation De Donnée;;75
+SYSTNAPS;1;;;Anglais, Base De Donnée, Bases De Données, Equipe Et Collaboration, Français, Git, Programmation, Rapport, Statistique;;94
+TALAN;46;ESN, Secteur informatique;6.10344827586207;Equipe Et Collaboration;;75
+TALENTEEDS;1;;;Communication;;75
+TATA CONSULTANCY SERVICES;7;;4;Adaptabilité, Gestion De Projets, Git, Programmation, Sql;;
+TEADS;1;;;Communication;;34
+TEAM IS;6;ESN, Secteur informatique;1;Equipe Et Collaboration;67500;33
+TECH RIDERS;44;;;Autonome, Equipe Et Collaboration;;75
+TERRENA;1;;;Bases De Données, Equipe Et Collaboration, Rapport, Rigueur, Statistique, Tableau;;
+TF1;1;;;Communication, Equipe Et Collaboration, Excel, Français, Git, Optimisation, Power Bi, Programmation, Prévision, Python, Sql, Visualisation De Donnée;;75
+THALES;6;;;Equipe Et Collaboration;;92
+THE INFORMATION LAB;1;;;Equipe Et Collaboration;52500;75
+THE PRODUCT CREW;7;;;Français;;
+TORTOISE;1;ESN, Secteur informatique;;Base De Donnée, Equipe Et Collaboration, Intelligence Artificielle, Programmation, Python, Rigueur, Statistique;;75
+TOTAL ENERGIE;7;;0;Anglais, Aws, Azure, Git, Modélisation, Python, Statistique;;
+TOTALENERGIES;6;;;Anglais, Equipe Et Collaboration, Python;;92
+TOUTON;1;;;Anglais, Bases De Données, Equipe Et Collaboration, Excel, Français, Power Bi, Rapport, Sql, Visualisation De Donnée;;33
+TRSB;4;ESN, Secteur informatique;7;Anglais, Equipe Et Collaboration;;75
+TUANIS IT;2;ESN, Secteur informatique;7;Anglais, Equipe Et Collaboration, Hadoop, Modélisation, Optimisation, Power Bi, Rapport, Spark, Sql;;31
+TWENTY ONE TALENTS;2;Communication, Industrie high-tech, Internet, Média, Telecom;7;Equipe Et Collaboration;56500;75
+U IRIS;2;ESN, Secteur informatique;1;Equipe Et Collaboration;45000;44
+UBISOFT;3;ESN, Secteur informatique;0;Equipe Et Collaboration;;75
+UNIBAILRODAMCOWESTFIELD;2;Immobilier, NA;;Equipe Et Collaboration;;75
+UNITED SOLUTIONS;2;ESN, Secteur informatique;1;Equipe Et Collaboration, Modélisation, Optimisation;47500;69
+UNIVERSCIENCE;1;;;Equipe Et Collaboration;45500;75
+UNIVERSITE DE MONTPELLIER;1;;;Autonome;35940;34
+UNIVERSITE DE NANTES;1;;;Anglais, Equipe Et Collaboration, Français, Rapport;;44
+UNLCK RECRUTEMENT;4;ESN, Secteur informatique, Services aux Entreprises;3.5;Equipe Et Collaboration, Sql;52250;6
+UPTOO;7;Services aux Entreprises;;Rapport;56785.7142857143;13
+UTIGROUP;7;ESN, Secteur informatique;7;Equipe Et Collaboration;43857.1428571429;69
+UTWIN;1;;;Autonome;;69
+VAISALA;1;;;Anglais, Autonome, Bases De Données, Excel, Français, Git, Python;;75
+VALEO;4;Industrie Auto, Meca, Navale, NA;0;Equipe Et Collaboration;;95
+VALEURIAD;1;;;Equipe Et Collaboration, Git, Hadoop, Intelligence Artificielle, Modélisation, Natural Language Processing, Python, Pytorch, Spark, Sql, Tensorflow;;44
+VALOWAY;1;;;Aws, Azure, Communication, Curiosité, Equipe Et Collaboration, Excel, Intelligence Artificielle, Modélisation, Natural Language Processing, Optimisation, Power Bi, Prévision, Python, Spark, Sql, Tableau;52500;44
+VALTAO;1;;;Equipe Et Collaboration, Rapport;;95
+VEEPEE;2;Commerce de gros, Distribution, NA;;Aws, Equipe Et Collaboration, Git, Natural Language Processing, Python, Pytorch, Spark, Sql, Statistique, Tableau, Visualisation De Donnée;;75
+VENTE 2 SITE;1;;;Autonome;;94
+VERISURE;1;;;Anglais, Azure, Equipe Et Collaboration, Excel, Power Bi, Python, Rapport, Serieux, Sql, Tableau;;92
+VETOQUINOL;1;;;Anglais, Equipe Et Collaboration, Excel, Français, Sql, Tableau, Vba;;70
+VIATRIS;1;;;Anglais, Equipe Et Collaboration, Excel, Power Bi, Python, Rapport, Sql, Tableau;;69
+VIF;2;ESN, Industrie Agro-alimentaire, Secteur informatique, NA;7;Equipe Et Collaboration;;44
+VINCI;6;;;Equipe Et Collaboration;;92
+VISIAN;9;;4;Anglais, Python, Tableau;;
+VISUARY;1;;;Autonome, Proactif, Python, Pytorch;;75
+VIVERIS;5;ESN, Secteur informatique;1;Equipe Et Collaboration;45000;94
+VO2;1;;;Anglais, Communication, Excel, Proactif, Rapport, Sql;;75
+VOLVO;5;;;Equipe Et Collaboration;;69
+WAISSO;1;;;Anglais, Equipe Et Collaboration, Excel, Git, Tableau, Visualisation De Donnée;;75
+WALTERS PEOPLE;1;Commerce de gros, Distribution;1;Equipe Et Collaboration;37500;95
+WANTEEED;7;;4;Autonome, Equipe Et Collaboration;50000;
+WARNER MUSIC FRANCE;7;;;Equipe Et Collaboration;;
+WAVESTONE;2;Services aux Entreprises;0;Equipe Et Collaboration, Git, Tableau;;75
+WE IT;1;Communication, ESN, Internet, Média, Secteur informatique;1;Français;46000;
+WEFOX;1;;;Anglais, Bases De Données, Equipe Et Collaboration, Git, Python, Sql;;75
+WEKEY;1;;;Autonome, Equipe Et Collaboration;;79
+WESMART;1;;;Anglais, Azure, Collecte De Données, Communication, Equipe Et Collaboration, Excel, Français, Modélisation, Programmation, Python, Résolution De Problèmes, Spark, Statistique;55000;75
+WEWYSE;2;Communication, Internet, Média, NA;2;Anglais;;75
+WHEEL OF WORK;1;;;Equipe Et Collaboration;;59
+WITHINGS;4;Commerce de gros, Distribution;0;Français;;92
+WIVOO;16;;;Anglais, Communication, Equipe Et Collaboration, Programmation, Python, Sql;;
+WIZALY;1;;;Bases De Données, Equipe Et Collaboration, Git, Hadoop, Intelligence Artificielle, Rigueur, Spark, Sql;;75
+WIZVILLE;7;;2;Equipe Et Collaboration;50000;
+XFAB;44;;;Anglais, Communication, Equipe Et Collaboration, Excel, Français, Statistique;;91
+XL CATLIN;1;;;Communication, Equipe Et Collaboration;;75
+XPDEEP;1;;;Apprentissage Profond, Autonome;;38
+ZO;1;;;Anglais, Aws, Communication, Compétences En Présentation, Excel, Français, Git, Python, Statistique;;75
+=======;;;;;;
+firm_name;n_offres;sector_main;avg_req_exp;top_skill_req;avg_wage;addr_dept_main
+1DSOLUTIONS;2;;;Equipe Et Collaboration;36400;75
+1GLINK CONSULTING;2;;;Autonome, Equipe Et Collaboration, Python, Sql;48750;75
+52 ENTERTAINMENT;7;;3;Communication;;
+AB SCIENCE;2;;;Bases De Données, Excel, Optimisation, Programmation, Sql;;75
+AB TASTY;1;ESN, Secteur informatique;;Anglais, Bases De Données, Créativité, Git, Optimisation, Python, Sql;;75
+ABEILLE ASSURANCES;2;;;Equipe Et Collaboration;;92
+ABIL RESSOURCES;1;ESN, Secteur informatique, Services aux Entreprises;1;Apprentissage Profond;50000;94
+ABORO;1;;;Base De Donnée, Communication, Créativité, Curiosité, Equipe Et Collaboration, Excel, Power Bi, Programmation, Python, Rapport, Rigueur, Sql, Statistique, Tableau;;
+ABYLSEN;5;ESN, Secteur informatique;1;Equipe Et Collaboration;40000;13
+ACCELITE;1;;;Anglais, Hadoop, Power Bi, Python, Spark, Sql, Statistique, Tableau;47500;75
+ACCENTURE FRANCE;60;ESN, Secteur informatique;6.4;Créativité, Git;;
+ACCORCORPO;1;;;Equipe Et Collaboration;;92
+ACENSI;2;Services aux Entreprises;7;Equipe Et Collaboration, Git;52500;33
+ACEO TECH;1;;;Anglais, Equipe Et Collaboration, Excel, Gestion De Projets;;63
+ACII BY AUDENSIEL;2;ESN, Secteur informatique;1;Equipe Et Collaboration, Modélisation;37500;44
+ACSSI;1;;;Anglais, Equipe Et Collaboration, Power Bi, Tableau, Visualisation De Donnée;;75
+ACTINVISION;2;;;Autonome, Equipe Et Collaboration;43250;67
+ACTIVUS;8;ESN, Secteur informatique;3.25;Equipe Et Collaboration;47900;31
+ACTON DATA;1;;;Anglais, Aws, Azure, Equipe Et Collaboration, Excel, Français, Git, Rapport, Statistique, Tableau;;92
+ADALID;44;;;Rapport, Statistique;;59
+ADAPT RH;1;Services aux Entreprises;7;Autonome;75000;75
+ADEO SERVICES;1;;;Anglais, C++, Communication, Curiosité, Equipe Et Collaboration, Gestion De Projets, Git, Intelligence Artificielle, Modélisation, Optimisation, Power Bi, Programmation, Prévision, Python, Sql, Tableau;;59
+ADEQUATION;1;Immobilier, Services aux Entreprises;7;Equipe Et Collaboration, Git, Optimisation;;
+ADHERENCE CONSULTING;2;ESN, Secteur informatique, NA;7;Bases De Données, Git, Statistique;;59
+ADIKTEEV;4;;;Français;;75
+ADOC TALENT MANAGEMENT;1;Services aux Entreprises;;Anglais, Bases De Données, Collecte De Données, Communication, Français, Programmation;;75
+ADOD;1;ESN, Secteur informatique;7;Aws, Azure, Equipe Et Collaboration, Prévision, Spark, Sql;;69
+ADONE CONSEIL;1;;;Equipe Et Collaboration, Git, Intelligence Artificielle;70000;75
+ADSEARCH;15;Services aux Entreprises;1;Equipe Et Collaboration;54666.6666666667;44
+ADWAY CONSEIL;1;;;Anglais, Equipe Et Collaboration, Excel, Gestion Du Temps, Git, Modélisation, Programmation, Python, Statistique;;92
+AEROW;1;;;Anglais, Power Bi;;75
+AFDTECH;3;ESN, Secteur informatique;5;NA;47500;59
+AFTERDATA;1;;;Créativité, Equipe Et Collaboration, Français, Programmation, Python, Rapport;16800;75
+AG SOLUTION;1;;;Communication;;59
+AG2R LA MONDIALE;3;;1;Autonome, Equipe Et Collaboration;;75
+AGH CONSULTING;4;Industrie high-tech, Telecom, NA;7;Equipe Et Collaboration;;92
+AGORASTORE;7;;;Equipe Et Collaboration;;
+AIA BORDEAUX;1;;;Autonome;;33
+AIR FRANCE;1;;;Modélisation, Optimisation, Programmation, Python;;95
+AIR LIQUIDE;8;;0;Anglais, Equipe Et Collaboration, Git;;75
+AIRBUS;8;;;Anglais;;13
+AIRCALL;2;ESN, Secteur informatique, NA;0;Communication;;75
+AIS;2;ESN, Secteur informatique;;Bases De Données, Equipe Et Collaboration, Excel, Optimisation, Power Bi, Sql;;44
+AIXIAL;1;;;Collecte De Données, Intelligence Artificielle, Power Bi, Programmation, Python, Statistique, Tableau, Tensorflow, Visualisation De Donnée;;92
+AIZEN RECRUITMENT;1;;;Anglais, Bases De Données, Equipe Et Collaboration, Excel, Français, Gestion De Projets, Modélisation, Programmation;;75
+AKERWISE;1;;;Equipe Et Collaboration;;75
+AKKION RECRUITMENT;1;;;Autonome, Equipe Et Collaboration;;60
+AKKODIS;2;ESN, Secteur informatique;1;Bases De Données, Equipe Et Collaboration, Excel, Python, Tableau, Visualisation De Donnée, NA;42500;63
+ALGOSCOPE;1;;;Equipe Et Collaboration, Intelligence Artificielle, Python, Pytorch, Tensorflow;14400;
+ALMA;1;Assurance, Banque, Finance;;Communication;;75
+ALPEE;3;Environnement, Secteur Energie;1;NA;51666.6666666667;74
+ALSTOM;5;;;Equipe Et Collaboration;;41
+ALTECA;7;ESN, Secteur informatique;0.714285714285714;Equipe Et Collaboration;52500;59
+ALTEIA;1;;;Apprentissage Profond;;
+ALTELIOS TECHNOLOGY;11;ESN, Secteur informatique;4;Equipe Et Collaboration;47722.2222222222;92
+ALTEN;48;;0;Equipe Et Collaboration;;92
+AMAZON;3;Communication, Internet, Média;0;Communication;;33
+AMILTONE;2;ESN, Secteur informatique;7;Equipe Et Collaboration, Google Cloud, Power Bi, Programmation, Sql, Tableau;39000;59
+ANDERSON RH;1;Services aux Entreprises;1;Anglais, Statistique;;
+ANDRICE;1;Services aux Entreprises;7;Equipe Et Collaboration;;69
+ANEO;1;;;Autonome, Equipe Et Collaboration;15600;92
+ANYWR FREELANCE;1;;;Communication, Rapport;;59
+AOSIS;1;;;C++, Equipe Et Collaboration, Git, Natural Language Processing, Prévision, Python, Statistique;50000;92
+APHP DSI;13;;2;Apprentissage Profond, Equipe Et Collaboration;;
+APPLE;1;;;Apprentissage Profond;;75
+APRIL;2;Assurance, Banque, Finance, NA;;Apprentissage Profond, Equipe Et Collaboration;;69
+APSIDE;12;ESN, Secteur informatique;5;Anglais, Equipe Et Collaboration;49000;6
+APTAR;1;;;Autonome, Equipe Et Collaboration;;27
+AQUILA DATA ENABLER;3;;;Apprentissage Profond;;92
+ARCOM;1;;;Equipe Et Collaboration;;75
+ARGON CO;1;;;Apprentissage Profond;19800;92
+ARKEMA;1;;;Equipe Et Collaboration, Excel, Français, Power Bi, Rapport, Tableau, Visualisation De Donnée;;92
+ARKEON ENERGY;1;;;Optimisation;;14
+ARMOR MECA DEVELOPPEMENT;1;;;Rapport;35000;22
+ARTEFACT;7;ESN, Secteur informatique;0.333333333333333;Equipe Et Collaboration;;75
+ARTELIA;1;;;Anglais, Bases De Données, Communication, Curiosité, Equipe Et Collaboration, Git, Modélisation, Programmation, Python, Rapport, Rigueur, Statistique, Vba;;38
+ARTELYS;7;;3;Apprentissage Profond, Autonome;;
+ARTEMYS AGILIT GROUPE ARTEMYS;1;;;Equipe Et Collaboration, Excel, Intelligence Artificielle, Programmation, Python, Sql;32500;79
+ASI;4;ESN, Secteur informatique;7;Equipe Et Collaboration, Git, Sql;;69
+ASSURANCES CREDIT MUTUEL GIE;1;Assurance, Banque, Finance;;Autonome, Equipe Et Collaboration;62500;67
+ASSURANT;1;Assurance, Banque, Finance;0;Rapport;;13
+ASTEK;33;ESN, Secteur informatique;4.33333333333333;Equipe Et Collaboration, Git;;75
+ATOS;6;ESN, Secteur informatique;0.75;Equipe Et Collaboration;;33
+AUBAY;3;ESN, Secteur informatique;1;Equipe Et Collaboration;;75
+AUCHAN RETAIL FRANCE;1;;;Equipe Et Collaboration, Git, Google Cloud, Rapport, Sql, Tableau, Visualisation De Donnée;;59
+AUCHAN RETAIL INTERNATIONAL;1;;;Anglais, Base De Donnée, Communication, Equipe Et Collaboration, Git, Rapport, Sql, Statistique, Visualisation De Donnée;;59
+AUDENSIEL TECHNOLOGIES;3;ESN, Secteur informatique;7;Equipe Et Collaboration;;33
+AUTOBIZ;1;;;Anglais, Base De Donnée, Equipe Et Collaboration, Intelligence Artificielle, Modélisation, Programmation, Python, Sql, Statistique;;92
+AUTOMOTIVE CELLS COMPANY ACC;5;Industrie Manufacturière;3;Bases De Données;;33
+AVANADE;1;;;Apprentissage Profond;;75
+AVIENT;1;;;Communication;;1
+AVISIA;2;;;Aws, Azure, Equipe Et Collaboration, Excel, Python, Sql;;75
+AXA;22;Assurance, Banque, Finance;2;Equipe Et Collaboration;15576;92
+AXEAL;2;Services aux Entreprises;0;Equipe Et Collaboration, Sql;40500;69
+AXEREAL;1;Industrie Agro-alimentaire;;Communication;;45
+AXSANT;1;;;Anglais, Equipe Et Collaboration, Excel, Optimisation, Power Bi, Programmation, Prévision, Rapport, Sql, Tableau;55000;75
+AYMING;1;;;Créativité, Excel, Git, Optimisation, Power Bi, Vba;;92
+AZAP;2;;;Anglais, Equipe Et Collaboration, Français, Programmation, Prévision, Statistique;;75
+AZURA DISMA INTERATIONAL;2;Commerce de gros, Distribution;7;Bases De Données, Intelligence Artificielle, Rapport, Tableau;;66
+BACK MARKET;4;Communication, Internet, Média, NA;0;Anglais, Français, Python;;75
+BALENCIAGA;1;;;Anglais, Curiosité, Equipe Et Collaboration, Excel, Rapport, Tableau, Vba, Visualisation De Donnée;;75
+BANQUE DE FRANCE;3;;;Equipe Et Collaboration;;75
+BANQUE POPULAIRE;2;;;Rapport;;13
+BARTLE;1;Services aux Entreprises;;Equipe Et Collaboration, Modélisation, Statistique;;75
+BAXTER;1;;;Anglais, Communication, Equipe Et Collaboration, Excel, Power Bi, Programmation, Python, Rapport, Sql, Statistique, Tableau, Visualisation De Donnée;;78
+BAYER;1;;;Equipe Et Collaboration;;69
+BD;1;;;Rapport;;38
+BEARINGPOINT FRANCE;3;;;Equipe Et Collaboration, Rapport;;92
+BEEZEN;2;;;Sql;;92
+BELIEVE;2;Communication, Internet, Média, NA;7;Anglais, Aws, Equipe Et Collaboration, Excel, Français, Git, Python, Sql, Statistique;;75
+BERTRANDT;4;Aérospatial, Industrie Aéronautique;7;Equipe Et Collaboration;;31
+BETCLIC;4;;;Equipe Et Collaboration, Français, Statistique;;33
+BFORBANK;1;;;Autonome, Equipe Et Collaboration;;92
+BLUECONSULTING;2;;;Apprentissage Profond, Python;;75
+BNP PARIBAS;8;Assurance, Banque, Finance;0;Equipe Et Collaboration;;93
+BOLLORE;1;;;Base De Donnée, Excel, Power Bi, Rapport, Tableau;;92
+BOSTON CONSULTING;2;;;Curiosité, Equipe Et Collaboration, Gestion De Projets, Git, Python, Spark, Statistique;;75
+BOTIFY;2;Services aux Entreprises, NA;;Communication, Equipe Et Collaboration;;75
+BOULANGER;1;Commerce de gros, Distribution;7;Equipe Et Collaboration, Rapport;52500;59
+BOURSORAMA;2;;;Autonome, Equipe Et Collaboration, Python, Rapport, Statistique;;92
+BOUYGUES;8;BTP, Industrie high-tech, Telecom;0.75;Equipe Et Collaboration;;92
+BPCE;18;;7;Equipe Et Collaboration;;75
+BPGRANDOUEST;1;;;Bases De Données, Curiosité, Equipe Et Collaboration, Power Bi, Rigueur, Sql, Statistique;;44
+BRAINPOWER;1;ESN, Secteur informatique;;Autonome;;38
+BRGM;5;;0;Modélisation, Python, Rapport;;
+BRITTANY FERRIES;1;Hôtellerie, Loisirs, Tourisme;1;Equipe Et Collaboration, Prévision;;29
+BSPORT SOLUTION;7;;;Aws, Bases De Données, Optimisation, Proactif, Python, Sql;;
+BUREAU VERITAS;3;ESN, Secteur informatique;0;Communication;;69
+BUSINESS DECISION;21;ESN, Secteur informatique;7;Equipe Et Collaboration;;31
+BUSINESS INSIGHT;1;;;Anglais, Français;;
+BUT;2;Commerce de gros, Distribution;;Autonome;;77
+CAFPI;1;Assurance, Banque, Finance;0;Equipe Et Collaboration, Git, Intelligence Artificielle, Rapport;;64
+CAISSE DEPARGNE;4;;;Equipe Et Collaboration, Power Bi, Sql;;33
+CAISSE DES DEPOTS;4;;;Equipe Et Collaboration, Rapport;;75
+CANAL PLUS;1;Communication, Internet, Média;7;Equipe Et Collaboration;;92
+CAPGEMINI;63;;1.33333333333333;Equipe Et Collaboration;;75
+CAPITAL MANAGEMENT FUND;2;;;Apprentissage Profond, Communication, Equipe Et Collaboration, Python, Statistique;;75
+CARDIOLOGS;2;ESN, Secteur informatique, NA;0;Apprentissage Profond;;75
+CARREFOUR;21;Commerce de gros, Distribution;0;Equipe Et Collaboration;;91
+CCPA;1;;;Collecte De Données, Créativité, Curiosité, Equipe Et Collaboration, Git, Modélisation, Power Bi, Python, Rigueur, Résolution De Problèmes, Sql;;
+CDISCOUNT;7;Commerce de gros, Distribution;0.25;Equipe Et Collaboration;;33
+CEA;1;;;Apprentissage Profond;;91
+CEB;1;;;Equipe Et Collaboration, Rapport;78204;75
+CEGID;1;;;Equipe Et Collaboration;47000;69
+CELAD;5;ESN, Secteur informatique;7;Python;40000;92
+CENOVA;9;;2;Autonome;;
+CENTRE HOSPITALIER DEPARTEMENTAL DE VENDEE;1;;;Apprentissage Profond, Autonome;;85
+CENTRE HOSPITALIER DEPARTEMENTAL VENDEE SITE DE LA ROCHE SUR YON;1;;;Apprentissage Profond, Autonome;;85
+CEREG TERRITOIRES;1;;;Base De Donnée, Equipe Et Collaboration, Git, Programmation, Python, Sql, Tableau;29000;44
+CERTIDEAL;2;Commerce de gros, Distribution;0;Equipe Et Collaboration;;92
+CEVA LOGISTICS;2;;;Autonome, Communication, Créativité, Equipe Et Collaboration, Excel, Git;;13
+CGI;68;ESN, Secteur informatique;1.6;Equipe Et Collaboration;;31
+CHANEL;3;;;Equipe Et Collaboration;;75
+CHAPS VISION;2;;;Anglais, Autonome, Communication, Equipe Et Collaboration, Excel, Français, Git, Python;;75
+CHARLI;1;;;Autonome, Equipe Et Collaboration, Programmation;;92
+CHD VENDEE DRH;1;;;Apprentissage Profond, Autonome;;85
+CHELA;1;;;Anglais, Base De Donnée, Equipe Et Collaboration, Français, Python, Statistique, Tensorflow;;94
+CHERCHE SUSAN DESESPEREMENT;1;;;Autonome;;75
+CHR NUMERIQUE;1;ESN, Secteur informatique;1;Equipe Et Collaboration;;29
+CHRISTIAN DIOR;2;Industrie Manufacturière;7;Anglais, Apprentissage Profond, Communication, Equipe Et Collaboration, Programmation;;92
+CHRONOPOST;1;;;Equipe Et Collaboration, Excel, Programmation, Prévision, Python, Rapport, Tableau;;75
+CHRU DE BREST;1;;;Apprentissage Profond;;29
+CIRIL;3;ESN, Secteur informatique;1;Bases De Données, Equipe Et Collaboration, Statistique;;13
+CIVILS DE LA DEFENSE;1;;;Apprentissage Profond, Communication, Equipe Et Collaboration, Git, Intelligence Artificielle, Programmation, Python, Rapport, Statistique;;75
+CLAMAE;1;;;Base De Donnée, Equipe Et Collaboration, Excel, Français, Modélisation, Python, Sql, Statistique, Tableau;;75
+CLARANET;4;ESN, Secteur informatique;7;Equipe Et Collaboration, Git;;59
+CLEEVEN;1;;;Anglais, Equipe Et Collaboration, Excel, Modélisation, Optimisation, Programmation, Python, Statistique;32500;6
+CLEMENTINE;1;;;Equipe Et Collaboration;;75
+CLS;1;;;Apprentissage Profond;;31
+CLS COLLECTE LOCALISATION SATELLITES;1;Industrie high-tech, Telecom;0;Apprentissage Profond;;31
+CNAV;1;;;Bases De Données, Excel, Sql, Vba;40500;75
+CNES CNES;2;;;Bases De Données, Equipe Et Collaboration, Modélisation, Programmation;;91
+CNP ASSURANCES;6;Assurance, Banque, Finance, NA;0.666666666666667;Equipe Et Collaboration;;92
+CNRS;2;;;Equipe Et Collaboration;34338;38
+COFACE;7;;;Anglais, Bases De Données, Bases De Données Management, Communication, Compétences En Présentation, Excel, Français, Power Bi, Rigueur, Statistique, Visualisation De Donnée;;
+COFIDIS;2;;;Autonome;37500;59
+COGNIZANT;1;;;Power Bi;;75
+COLAS;1;;;Git, Power Bi, Statistique;;54
+COLLINS AEROSPACE;1;;;Equipe Et Collaboration;;27
+COMPTALENTS;1;;;Equipe Et Collaboration;37500;95
+CONSEPT INGENIERIE;1;ESN, Secteur informatique;7;NA;32500;35
+CONSORT;2;ESN, Secteur informatique;1;Communication, Equipe Et Collaboration, Hadoop, Python, Sql;;33
+CONSORTIA;7;;;Communication, Equipe Et Collaboration, Hadoop, Modélisation, Optimisation, Spark, Sql;;
+CONTEXTE;7;;5;Equipe Et Collaboration;;
+CONTINENTAL;2;;;Communication;;31
+COPERNEEC;2;;;Apprentissage Profond;;75
+COUNCIL OF EUROPE DEVELOPMENT BANK;1;;;Anglais, Collecte De Données, Excel, Français, Power Bi, Python, Rapport, Rigueur, Sql, Statistique, Tableau;;75
+CPAM DE LA MARNE;1;;;Bases De Données, Equipe Et Collaboration, Excel, Power Bi, Programmation, Rigueur, Sql, Statistique, Tableau, Vba;28000;51
+CREDIT AGRICOLE;25;;1.8;Equipe Et Collaboration;50000;75
+CREDIT AGRICOLE INFRASTRUCTURE PLATEFORM;1;Assurance, Banque, Finance;1;Equipe Et Collaboration;;34
+CRITEO;2;Communication, Internet, Média, NA;;Communication;;75
+CS;9;ESN, Secteur informatique;5.44444444444445;NA;;64
+CYLLENE;28;;4;Autonome, Aws, Azure, Equipe Et Collaboration, Python, Sql;48750;
+D3S;1;;;Apprentissage Profond;65000;38
+DALKIA;1;;;Equipe Et Collaboration, Excel, Rapport, Rigueur, Sql;;49
+DANEM PEOPLE FRANCE;2;;;Equipe Et Collaboration, Français, Git, Google Cloud, Python, Sql, Tableau;82500;75
+DANONE;5;;0;Equipe Et Collaboration;;75
+DASSAULT;12;;;Equipe Et Collaboration;;78
+DATA RECRUTEMENT;46;;;Equipe Et Collaboration;45000;75
+DATADOG;3;;;Créativité, Equipe Et Collaboration, Excel, Git;;75
+DATAFABIO;1;;;Apprentissage Profond;;94
+DATAIKU;1;;;Communication;;75
+DATAKHI;1;;;Rapport;45000;59
+DATASCIENTEST;17;;1.5;Autonome;36833.3333333333;
+DATAWORDS;1;ESN, Secteur informatique;;Rapport;;92
+DAVIDSON;11;ESN, Secteur informatique;1;NA;39812.5;35
+DAVRICOURT;5;ESN, Secteur informatique;;Equipe Et Collaboration;;59
+DECIDEOM;1;;;Aws, Azure, Base De Donnée, Equipe Et Collaboration, Français, Power Bi, Programmation, Python, Sql, Statistique, Tableau;45000;59
+DECILIA;1;;;Equipe Et Collaboration;41500;92
+DEEZER;3;;0;Visualisation De Donnée;;75
+DELAWARE;2;;;Equipe Et Collaboration;;59
+DELOITTE;8;;0.333333333333333;Anglais, Autonome, Equipe Et Collaboration, Python, Sql, Statistique;;92
+DEMETER;2;Services aux Entreprises, NA;1;Excel, Modélisation, Python, Spark, Statistique;60000;92
+DEPARTEMENT DE SAONEETLOIRE;1;;;Equipe Et Collaboration;;
+DEPARTEMENT DU VALDEMARNE;1;;;Bases De Données;;
+DESCARTES UNDERWRITING;11;Assurance, Banque, Finance;0;Communication;;75
+DEVOTEAM;3;ESN, Secteur informatique;;Equipe Et Collaboration, Git;;92
+DGTL PERFORMANCE;2;ESN, Secteur informatique;;Anglais, Autonome, Azure, Bases De Données, Curiosité, Power Bi, Sql;;78
+DIALONCE;1;;;Apprentissage Profond, Equipe Et Collaboration;;75
+DIAMIDEX;1;;;Apprentissage Profond;40000;
+DIGIDIZ STAFF GO;1;;;Autonome, Equipe Et Collaboration;;68
+DIGIWIDE;1;;;Equipe Et Collaboration;;33
+DIOTSIACI;1;Assurance, Banque, Finance;1;Equipe Et Collaboration, Rapport;50000;75
+DIRECTION GENERALE DE LARMEMENT;1;;;Communication, Equipe Et Collaboration, Python, Visualisation De Donnée;;35
+DIRECTION INTERMINISTERIELLE DU NUMERIQUE DINUM SERVICE DU PREMIER MINISTRE;7;;;Bases De Données, Equipe Et Collaboration, Git, Python, Rigueur, Spark;;
+DOCAPOSTE;4;ESN, Secteur informatique;1;Equipe Et Collaboration;;69
+DOCARET;1;;;Bases De Données, Communication, Equipe Et Collaboration, Excel, Python, Vba;44000;33
+DOCTOLIB;2;;;Anglais, Apprentissage Profond, Equipe Et Collaboration, Natural Language Processing;;75
+EASY CASH;1;;;Curiosité, Equipe Et Collaboration, Git, Programmation, Python, Statistique, Tableau;;
+EASYVISTA;2;ESN, Secteur informatique, NA;0;Equipe Et Collaboration, Français, Natural Language Processing, Prévision, Python, Statistique;;38
+EDENRED;2;Services aux Entreprises, NA;;Equipe Et Collaboration, Git;;92
+EDF;5;Environnement, Secteur Energie;0;Equipe Et Collaboration;;92
+EDHEC BUSINESS SCHOOL;1;;;Anglais, Communication, Equipe Et Collaboration, Excel, Intelligence Artificielle;;59
+EDVANCE;1;;;Anglais, Base De Donnée, Communication, Equipe Et Collaboration, Rigueur;;92
+EFFI GEMY;2;;;Equipe Et Collaboration;;
+EGIS;1;;;Anglais, Bases De Données, Equipe Et Collaboration, Git, Proactif, Rapport, Tableau, Visualisation De Donnée;;69
+EKIMETRICS;6;;0;Equipe Et Collaboration;;75
+EKINO FRANCE;1;;;Anglais, Aws, Equipe Et Collaboration, Français, Hadoop, Modélisation, Programmation, Python, Spark, Sql, Statistique, Tableau;;93
+EKKIDEN;2;ESN, Secteur informatique;;Autonome;;75
+ELAP;1;;;Autonome;;75
+ELECLERC;1;;;Autonome, Equipe Et Collaboration, Proactif;;40
+ELIS;1;;;Anglais, Communication, Equipe Et Collaboration, Rapport, Tableau;;92
+ELSYS DESIGN;1;;;Equipe Et Collaboration;;35
+EMERTON;3;;;Communication;;75
+ENDRESS HAUSER FRANCE;1;;;Equipe Et Collaboration, Français, Git, Optimisation, Power Bi, Rapport;;68
+ENDRIX;1;Assurance, BEP, Banque, CAP, Finance;;Equipe Et Collaboration;;69
+ENEDIS;1;;;Equipe Et Collaboration, Rapport, Tableau, Visualisation De Donnée;;69
+ENGIE;11;Environnement, Secteur Energie;0;Equipe Et Collaboration;;92
+ENTERPRISE DIGITAL RESOURCES;1;;;Equipe Et Collaboration;;59
+EQUANCY;1;;;Apprentissage Profond;;75
+EQUANS;5;;1;Equipe Et Collaboration, Git;52500;69
+EQUATIV;4;;;Apprentissage Profond, Excel, Python;;75
+ERAMET;1;;;Anglais, Azure, Curiosité, Equipe Et Collaboration, Excel, Français, Gestion De Projets, Git, Python, Rapport, Rigueur, Sql, Statistique, Tensorflow;;78
+ERGOSS LOGICIELS;7;;;Autonome;;
+ESPACE FREELANCE;1;;;Equipe Et Collaboration, Python, Sql, Statistique, Tableau, Visualisation De Donnée;;59
+ESPRIT RH;1;Services aux Entreprises;1;Anglais, Equipe Et Collaboration, Optimisation;;31
+EUREDEN;1;;;Autonome;;29
+EURO INFORMATION;8;Assurance, Banque, Finance, NA;;Autonome;42062.5;67
+EUROFINS;2;Biotechn., Chimie, Industrie Pharmaceutique, NA;;Communication;;2
+EUROPCAR MOBILITY;2;Logistique, Transport;;Communication, Preprocessing, Rapport;;75
+EUROPEAN CAMPING;1;;;Anglais, Communication, Equipe Et Collaboration, Excel, Français, Git, Optimisation, Power Bi, Programmation, Rapport, Sql, Statistique, Tableau;30000;34
+EVANEOS;13;;3;Autonome;;
+EVIDEN;5;ESN, Secteur informatique;7;Communication;;33
+EVOTEO;25;;2.68;Equipe Et Collaboration, Python, Sql, Tableau;44380;
+EVS PROFESSIONNEL;15;;3;Equipe Et Collaboration;;
+EXAKIS NELITE;1;ESN, Secteur informatique;1;Azure, Curiosité, Equipe Et Collaboration, Power Bi;;31
+EXCELCIO;1;;;Equipe Et Collaboration, Excel, Power Bi, Proactif, Sql, Tableau, Visualisation De Donnée;;75
+EXOTEC;4;Industrie high-tech, Telecom;0;Equipe Et Collaboration;;59
+EXPECTRA;2;Assurance, Banque, Finance;1;Optimisation;40000;44
+EXPLEO;10;ESN, Secteur informatique;7;Equipe Et Collaboration;;31
+EXTERNATIC;2;Services aux Entreprises;1;Equipe Et Collaboration, Rapport, Tableau;45000;44
+EXTERNATIC RECRUTEMENT;1;Services aux Entreprises;;NA;;44
+EXTIA;12;ESN, Secteur informatique;;Equipe Et Collaboration;;34
+EY;8;ESN, Secteur informatique;3.5;Rapport;;92
+EYETECH SOLUTIONS;1;;;Equipe Et Collaboration;52500;75
+FABDEV;1;;;Aws, Git, Google Cloud, Python, Seaborn, Tensorflow;;75
+FAIRLY MADE;1;;3;Autonome;;
+FAREVA IT APPS;2;Industrie Manufacturière;7;Collecte De Données, Equipe Et Collaboration, Rapport;;26
+FEDERATION FRANCAISE DE RUGBY;1;;;Bases De Données, Equipe Et Collaboration, Français, Modélisation, Proactif, Programmation, Python, Rapport, Rigueur, Statistique;36400;91
+FIDAL;1;ESN, Secteur informatique;0;Anglais, Communication, Curiosité, Equipe Et Collaboration, Git, Intelligence Artificielle, Rigueur;;75
+FIDERIM DEUX SAVOIE;1;Services aux Entreprises;1;Tableau;35000;74
+FILHETALLARD;1;;;Equipe Et Collaboration, Optimisation, Rapport, Statistique;;
+FINANCE PEOPLE;1;Services aux Entreprises;;Equipe Et Collaboration, Excel, Power Bi, Programmation, Python, Pytorch, Rapport, Statistique, Tensorflow;47500;78
+FINANCEPEOPLE;1;;;Equipe Et Collaboration, Excel, Power Bi, Programmation, Python, Pytorch, Rapport, Statistique, Tensorflow;50000;78
+FINDWAYS;1;;;Base De Donnée, Collecte De Données, Equipe Et Collaboration, Intelligence Artificielle, Programmation;18000;92
+FLYINSTINCT;1;;;Anglais, Equipe Et Collaboration, Français, Intelligence Artificielle, Python, Statistique;;75
+FNAC DARTY;7;Commerce de gros, Distribution;0;Git;;94
+FONDATION POUR LA RECHERCHE MEDICALE;1;;;Azure, Base De Donnée, Bases De Données, Communication, Curiosité, Equipe Et Collaboration, Excel, Français, Git, Power Bi, Rapport, Rigueur, Sql, Statistique;;86
+FOODLES;1;;;Equipe Et Collaboration;;92
+FORTUNEO;1;Assurance, Banque, Finance;;Aws, Equipe Et Collaboration;;29
+FRANCAISE DES JEUX;1;;;Curiosité, Equipe Et Collaboration, Français, Git, Hadoop, Modélisation, Prévision, Python, Rapport, Rigueur, Spark, Sql, Statistique;;92
+FRANFINANCE;1;;;Bases De Données, Français, Power Bi, Programmation, Python, Rapport, Statistique;;92
+FREE;6;Communication, Internet, Média, NA;0;Equipe Et Collaboration;44000;75
+FREE2MOVE;1;;;Autonome, Equipe Et Collaboration;;75
+FREELANCEREPUBLIK;2;;;Anglais, Equipe Et Collaboration, Spark;;59
+FRETBAY;1;;;Autonome;;75
+FRISBEE PROFILING;1;;;Rapport;;92
+GALEC MOUVEMENT ELECLERC;28;;5.5;Equipe Et Collaboration;;
+GALEC SERVICES CENTRAUX;6;Commerce de gros, Distribution;1;Equipe Et Collaboration;;94
+GALERIES LAFAYETTE;2;Commerce de gros, Distribution, NA;0;Apprentissage Profond, Equipe Et Collaboration, Intelligence Artificielle;20966.4;75
+GAMELOFT;2;ESN, Secteur informatique, NA;0;Anglais, Autonome, Communication, Equipe Et Collaboration, Feature Engineering, Français, Git, Matplotlib, Python, Seaborn, Sql;;75
+GAN ASSURANCES;1;;;Equipe Et Collaboration;;92
+GEMY AUTOMOBILES;2;;;Equipe Et Collaboration;;
+GENERALE;6;;;Equipe Et Collaboration, Rapport;;92
+GENERALE SECURITIES SERVICES;1;;;Adaptabilité, Anglais, Communication, Equipe Et Collaboration, Excel, Modélisation, Power Bi, Rigueur, Tableau;;92
+GENERALI;8;;0;Python;;93
+GENERATION;1;;;Equipe Et Collaboration, Excel, Python, Rapport, Statistique, Tableau, Vba;;29
+GENIEM;2;;;Apprentissage Profond;;59
+GEODIS;1;Logistique, Transport;1;Equipe Et Collaboration, Modélisation;;73
+GERFLOR;1;;;Equipe Et Collaboration;;69
+GESER BEST;1;;;Anglais, Bases De Données, C++, Equipe Et Collaboration, Power Bi, Python, Rapport, Résolution De Problèmes, Sql, Statistique, Visualisation De Donnée;33000;33
+GHU PARIS PSYCHIATRIE ET NEUROSCIENCES;1;;;Anglais, Bases De Données, Equipe Et Collaboration, Programmation, Python, Sql, Statistique;;75
+GIP PULSY;1;;;Base De Donnée, Bases De Données, Communication, Equipe Et Collaboration, Modélisation, Programmation, Rapport, Rigueur, Sql, Statistique, Tableau;37500;67
+GRANT THORNTON;4;;0;Equipe Et Collaboration, Sql;;92
+GRESB;1;;;Anglais, Bases De Données, Equipe Et Collaboration, Excel, Python, Sql;;75
+GROUPAGORA;7;ESN, Secteur informatique;2.66666666666667;Rapport;50000;64
+GROUPAMA;12;;0.5;Equipe Et Collaboration;50000;75
+GROUPE ADP;4;Logistique, Transport, NA;0;Equipe Et Collaboration;;94
+GROUPE ALPHA;2;;;Bases De Données, Equipe Et Collaboration, Modélisation, Optimisation, Rapport, Sql, Tableau;;75
+GROUPE APTENIA;2;;;Anglais, Apprentissage Profond, Equipe Et Collaboration, Optimisation, Prévision;;75
+GROUPE BAYARD PRESSE;1;;;Autonome;;92
+GROUPE BEAUMANOIR SIEGE;1;;;Autonome;;35
+GROUPE CREATIVE;2;ESN, Secteur informatique;1;Equipe Et Collaboration, Git, Programmation, Python, Rapport, Spark, Sql;45000;59
+GROUPE DUBREUIL;2;Commerce de gros, Distribution, NA;0;Apprentissage Profond;;85
+GROUPE LE DUFF;1;;;Autonome;;35
+GROUPE M6;1;;;Equipe Et Collaboration;;92
+GROUPE VILAVI;1;Assurance, Banque, Finance;1;Git, Modélisation, Statistique;;93
+GROUPEMENT DINTERET PUBLIC PULSY;1;;;Base De Donnée, Bases De Données, Communication, Equipe Et Collaboration, Modélisation, Programmation, Rapport, Rigueur, Sql, Statistique, Tableau;;67
+GROUPEMENT LES MOUSQUETAIRES;4;Commerce de gros, Distribution, NA;0;Equipe Et Collaboration;21466.6666666667;92
+GROUPM;1;Communication, Internet, Média;;Equipe Et Collaboration;;75
+GUEUDET;1;;;Bases De Données, Equipe Et Collaboration, Git, Sql, Statistique;;80
+GUEUDET 1880;1;Industrie Auto, Meca, Navale;;NA;;80
+HAGER;1;;;Anglais, Python, Rigueur, Sql, Statistique, Tableau;;33
+HARDIS;7;ESN, Secteur informatique;4.2;Equipe Et Collaboration;;38
+HARMONIE MUTUELLE;1;;;Autonome;;35
+HARRY HOPE;3;Services aux Entreprises;1;Equipe Et Collaboration;46666.6666666667;21
+HAVAS;3;;7;Equipe Et Collaboration;;92
+HAYS;9;ESN, Secteur informatique;0.888888888888889;Equipe Et Collaboration;44937.5;31
+HEALTH DATA HUB;7;;;Apprentissage Profond;;
+HELLO WATT;1;Environnement, Secteur Energie;0;Equipe Et Collaboration, Rapport;;75
+HELLOFRESH;2;Commerce de gros, Distribution, NA;1;Proactif, Python, Sql;;75
+HIMYDATA;2;;;Equipe Et Collaboration;;6
+HIPPY INDIENOV;1;;;Equipe Et Collaboration;;13
+HIPTO;7;;;Aws, Curiosité, Equipe Et Collaboration, Optimisation, Programmation, Python, Sql, Tableau;;
+HITACHI SOLUTIONS;1;;;Equipe Et Collaboration;;75
+HOLCIM;2;;;Programmation;;38
+HOPITAL CAVALE BLANCHE;1;;;Apprentissage Profond;;29
+HOPITAL NATIONAL DES QUINZEVINGTS;2;;;Equipe Et Collaboration, Rapport;;75
+HOVE;7;;;Anglais, Equipe Et Collaboration, Français, Power Bi, Rapport, Sql, Tableau;;
+HP;1;;;Anglais, Excel, Power Bi, Prévision, Python, Rapport, Sql, Statistical Modeling;;38
+HR TEAM;3;ESN, Secteur informatique;1;Equipe Et Collaboration;42500;44
+HSBC;2;Assurance, Banque, Finance, NA;;Autonome;;92
+IADVIZE;1;;;Autonome, Français;;44
+IBM;1;;;Equipe Et Collaboration;;92
+IKIGAI;1;;;Equipe Et Collaboration, Power Bi, Programmation, Rapport, Tableau;36500;69
+ILIAD;3;Communication, Industrie high-tech, Internet, Média, Telecom;0;Equipe Et Collaboration;;75
+IMT NORD EUROPE;1;Enseignement, Formation;0;Apprentissage Profond;;59
+IN EXTENSO;2;ESN, Secteur informatique;0.5;Aws, Azure, Equipe Et Collaboration, Git, Power Bi, Python, Sql, Tableau;;75
+INEAT;2;ESN, Secteur informatique;;Equipe Et Collaboration, Git, Modélisation, Power Bi, Sql;;59
+INERIS;4;Environnement, Secteur Energie;1;Français;;60
+INETUM;31;ESN, Secteur informatique;7;Equipe Et Collaboration;;93
+INEX BET;1;;;Anglais, Base De Donnée, Communication, Excel, Programmation, Python, Pytorch, Rigueur, Tableau, Tensorflow;13200;93
+INFOGENE;10;ESN, Secteur informatique;1;Equipe Et Collaboration, Rapport;55875;92
+INFOPRO DIGITAL;1;;;Autonome;;92
+INFORMATISTS;3;;;Base De Donnée, Sql;;10
+INFOTEL;4;ESN, Secteur informatique;7;Hadoop, Sql;49000;29
+INGENIANCE;2;ESN, Secteur informatique;;Aws, Azure, Equipe Et Collaboration;;92
+INLI;1;;;Equipe Et Collaboration, Gestion De Projets, Power Bi, Rapport, Sql, Statistique;;92
+INNOVA SOLUTIONS;1;ESN, Secteur informatique;7;Equipe Et Collaboration;;6
+INNOVELA;26;;2;Autonome;61250;
+INPOST;1;;;Anglais, Base De Donnée, Bases De Données, Equipe Et Collaboration, Excel, Power Bi, Python, Rapport, Sql;;59
+INRAE;1;;;Base De Donnée, Equipe Et Collaboration, Git, Intelligence Artificielle, Modélisation;29900;44
+INRIA;3;;;Equipe Et Collaboration;;13
+INSITOO;4;;;Equipe Et Collaboration;;59
+INSTITUT DU CERVEAU ET DE LA MOELLE EPINIERE;2;;;Communication, Programmation;40000;75
+INSTITUT DU CERVEAU ET DE LA MOELLE EPINIERE ET DE LA MOELLE EPINIERE;1;;;Bases De Données, Communication, Equipe Et Collaboration, Programmation, Python, Statistique, Version Control;;75
+INVENTING FOR LIFE;1;Biotechn., Chimie, Industrie Pharmaceutique;;Equipe Et Collaboration, Statistique;;75
+INVIVO DIGITAL FACTORY;2;Industrie Agro-alimentaire;7;Equipe Et Collaboration;;92
+INVIVOO;1;;;Equipe Et Collaboration, Excel, Optimisation, Python, Sql, Tableau, Vba, Visualisation De Donnée;55000;75
+IPSEN PHARMA;1;;;Equipe Et Collaboration, Natural Language Processing, Programmation, Python, Visualisation De Donnée;;92
+IRT JULES VERNE;2;Industrie Manufacturière, NA;;Equipe Et Collaboration, Intelligence Artificielle;;44
+ITM STATS;1;ESN, Secteur informatique;;Autonome;;75
+ITNOVEM;1;ESN, Secteur informatique;;Aws, Azure, Equipe Et Collaboration, Git, Proactif;;93
+ITW;1;;;Anglais, Bases De Données, Equipe Et Collaboration, Excel, Power Bi, Programmation, Python, Rapport, Sql, Statistique, Vba;;26
+IVALUA;1;;;Apprentissage Profond, Equipe Et Collaboration, Natural Language Processing;;91
+IZIWORK;3;;;Anglais, Excel, Python, Sql;44166.6666666667;44
+JCDECAUX;6;Communication, Industrie Manufacturière, Internet, Média;1.75;Equipe Et Collaboration;;92
+JOB STAGING;2;ESN, Industrie high-tech, Secteur informatique, Telecom;7;Autonome, Equipe Et Collaboration;;56
+JOBMANIA;1;Communication, Internet, Média, Services aux Entreprises;1;Curiosité, Equipe Et Collaboration, Git, Rapport;12000;75
+JOHNSON JOHNSON;1;;;Apprentissage Profond, Communication;;92
+KAIBEE;1;;;Autonome, Equipe Et Collaboration, Programmation;;75
+KAINO;3;;;Equipe Et Collaboration;65000;75
+KANBIOS;12;;3.5;Anglais, Autonome, Equipe Et Collaboration, Excel;;
+KAROS MOBILITY;7;;3;Equipe Et Collaboration;50000;
+KELKOO;1;ESN, Secteur informatique;;Apprentissage Profond, Equipe Et Collaboration, Natural Language Processing;;38
+KELLY SERVICES;1;Biotechn., Chimie, Industrie Pharmaceutique;1;Equipe Et Collaboration;;91
+KEOLIS TOURS;1;;;Equipe Et Collaboration;;37
+KERING;5;;;Anglais;;75
+KICKLOX;14;;;Français;68500;78
+KLARYS;1;;;Apprentissage Profond;;35
+KLESIA;1;;;Autonome;;75
+KLINT CONSULTING;7;;5;Equipe Et Collaboration, Rapport;65000;
+KNOW YOUR PEOPLE;1;;;Autonome, Rapport;42500;59
+KPMG;15;;0.428571428571429;Equipe Et Collaboration;;92
+KROISSANCE;1;;;Azure, Communication, Equipe Et Collaboration, Français, Git, Power Bi, Python, Rigueur, Sql;40000;31
+KRYOLE;2;Commerce de gros, Distribution, Industrie Manufacturière;0;Equipe Et Collaboration, Tableau;;75
+KUMO;1;;;Base De Donnée, Equipe Et Collaboration, Excel, Programmation, Rapport, Tableau, Vba;9000;92
+KURIBAY;1;Industrie Auto, Meca, Navale;1;Equipe Et Collaboration;;69
+KYRIBA;2;Assurance, Banque, Finance, NA;;Communication;;92
+LA BANQUE POSTALE;5;;;Apprentissage Profond;;75
+LA BCI;1;;;Base De Donnée, Communication, Créativité, Curiosité, Equipe Et Collaboration, Excel, Modélisation, Power Bi, Programmation, Python, Rapport, Rigueur, Serieux, Sql, Statistique, Tableau;;
+LA BELLE ILOISE;1;;;Base De Donnée, Bases De Données, Equipe Et Collaboration, Excel, Git, Optimisation, Prévision, Rapport, Rigueur, Sql, Statistique, Tableau;;56
+LA POSTE;7;Logistique, Transport;1;Equipe Et Collaboration;;93
+LA RELEVE;7;;4;Communication, Equipe Et Collaboration, Git, Modélisation, Statistique;60000;
+LA SECU RECRUTE;6;;;Equipe Et Collaboration, Statistique;42550;75
+LACOSTE;1;Commerce de gros, Distribution;;NA;;75
+LALLEMAND;1;;;Communication, Equipe Et Collaboration, Excel, Git, Programmation, Statistique, Tableau;;15
+LANGTON HOWARTH;1;;;Anglais, Autonome, Communication, Python;;75
+LATECOERE;1;;;Equipe Et Collaboration, Excel, Modélisation, Optimisation, Programmation, Python, Spark, Sql, Statistique, Tableau;;31
+LCL;6;Assurance, Banque, Finance, NA;0.333333333333333;Equipe Et Collaboration;;94
+LE BON CANDIDAT RECRUTEMENT;1;Services aux Entreprises;;Anglais, Communication, Equipe Et Collaboration, Excel, Intelligence Artificielle;45000;94
+LE GROUPE GCF;1;;;Anglais, Bases De Données, Communication, Curiosité, Equipe Et Collaboration, Excel, Français, Rapport, Rigueur, Statistique, Tableau;;67
+LE TELEGRAMME;4;Communication, Internet, Média;1;Equipe Et Collaboration;42500;29
+LEFEBVRE SARRUT;1;;;Equipe Et Collaboration, Excel, Français, Python, Rigueur, Statistique;;92
+LEHIBOU;1;;;Anglais, Equipe Et Collaboration, Git, Proactif, Rapport;;92
+LENOVO FRANCE;1;Industrie high-tech, Telecom;;Git;;40
+LESAFFRE;3;Industrie Agro-alimentaire;;Communication;;59
+LHH RECRUITMENT SOLUTIONS;3;Services aux Entreprises;7;Autonome, Equipe Et Collaboration;43000;33
+LIBERTY RIDER;44;;;Autonome;;31
+LICORNE SOCIETY;2;;;Aws, Azure, Bases De Données, Equipe Et Collaboration, Git, Optimisation, Power Bi, Prévision, Python, Rapport, Sql, Tableau, NA;;75
+LIEBHERRAEROSPACE TOULOUSE;2;Aérospatial, Industrie Aéronautique, NA;1;Equipe Et Collaboration, Git, Optimisation;;31
+LIMAGRAIN;2;Industrie Agro-alimentaire, NA;1;Equipe Et Collaboration, Git, Prévision, Rigueur, Statistique;;63
+LINCOLN;1;;;Apprentissage Profond;;69
+LINKEDIN JOB WRAPPING;1;;;Equipe Et Collaboration;;75
+LITY;1;;;Equipe Et Collaboration, Intelligence Artificielle, Python, Statistique;90000;75
+LIVINGPACKETS;21;;3;Autonome, Equipe Et Collaboration;41666.6666666667;
+LNE;1;;;Autonome;;75
+LOC MARIA BISCUITS;2;Industrie Agro-alimentaire, NA;7;Equipe Et Collaboration;;22
+LOPCOMMERCE;1;;;Autonome, Rapport;44250;75
+LORGANISATION MONDIALE DE LA SANTE ANIMALE OIE;1;;;Equipe Et Collaboration;;75
+LOUVRE HOTELS;1;;;Anglais, Equipe Et Collaboration, Power Bi, Rapport, Tableau;;92
+LR TECHNOLOGIES NORD;2;ESN, Secteur informatique, Services aux Entreprises;1;Equipe Et Collaboration;42500;59
+LSA COURTAGE;44;;;Autonome;;92
+LYDIA SOLUTIONS;44;;;Communication;;75
+LYNX RH;1;Services aux Entreprises;;Autonome;;49
+MAESTRIA;2;Services aux Entreprises;1;Azure, Equipe Et Collaboration, Intelligence Artificielle, Programmation, Python, Spark;46500;6
+MAGASINS VERT POINT VERT;1;Commerce de gros, Distribution;0;Equipe Et Collaboration, Git, Tableau;;29
+MAIF;2;;;Equipe Et Collaboration;;79
+MALAKOFF HUMANIS;4;;;Autonome, Equipe Et Collaboration;;75
+MALT;1;Services aux Entreprises;0;Anglais, Bases De Données, Communication, Curiosité, Proactif, Python, Rigueur, Sql, Visualisation De Donnée;;75
+MANAGING;2;Services aux Entreprises;;Equipe Et Collaboration;;67
+MANE;2;Industrie Pétrolière, Pétrochimie, NA;;Autonome;;6
+MANUTAN;2;Communication, Internet, Média, NA;;Apprentissage Profond, Equipe Et Collaboration, Optimisation;;95
+MARCEL ROBBEZ MASSON;1;;;Anglais, Base De Donnée, Bases De Données, Equipe Et Collaboration, Programmation, Rapport, Rigueur, Sql, Statistique;40200;34
+MARGO CONSEIL;1;;;Apprentissage Profond;;75
+MASER ENGINEERING;2;Services aux Entreprises;1;NA;32500;31
+MATMUT;2;Assurance, Banque, Finance, NA;1;Apprentissage Profond;;76
+MAZARS;3;ESN, Secteur informatique;7;Equipe Et Collaboration, Tableau;;92
+MBDA FRANCE;1;;;Anglais, Equipe Et Collaboration, Programmation, Python, Visualisation De Donnée;;18
+MBR PARTNERS;1;;;Communication;;75
+MCKINSEY COMPANY;2;;;Apprentissage Profond, Communication;;75
+MEETIC;1;Communication, Internet, Média;;Apprentissage Profond, Communication;;75
+MEILLEURTAUX;1;Assurance, Banque, Communication, Finance, Internet, Média;;Adaptabilité, Azure, Bases De Données, Equipe Et Collaboration, Git, Optimisation, Python, Rapport;;75
+MERITIS;3;ESN, Secteur informatique;;Equipe Et Collaboration, Optimisation, Prévision;;75
+META;2;;;Apprentissage Profond;;75
+METRIXX;1;;;Git, Optimisation, Rapport, Tableau;;69
+METYIS;1;;;Communication;;75
+MFG LABS;44;;;Anglais, Aws, Equipe Et Collaboration, Français, Hadoop, Modélisation, Programmation, Python, Spark, Sql, Statistique, Tableau;;77
+MGEN;1;;;Equipe Et Collaboration;;75
+MICHAEL PAGE;12;Services aux Entreprises;0;Equipe Et Collaboration;56450;92
+MICHELIN;5;;0;Equipe Et Collaboration;16260;63
+MILLION VICTORIES;7;;;A/B Testing, Anglais, Autonome, Bases De Données, Créativité, Proactif, Programmation, Python, Sql;;
+MIRAKL;5;Communication, ESN, Internet, Média, Secteur informatique;;Equipe Et Collaboration;;75
+MIRAKL LABS;1;;;Apprentissage Profond, Autonome, Equipe Et Collaboration;;33
+MOBILIZE FINANCIAL SERVICES;1;Assurance, Banque, Finance, Industrie Auto, Meca, Navale;1;Equipe Et Collaboration;;93
+MONABANQ;1;;;Excel, Sql, Statistique, Tableau;10056;59
+MONDIAL RELAY;1;Logistique, Transport;7;Aws, Tableau;;59
+MONMARCHEFR;1;;;Autonome;;69
+MORGAN PHILIPS EXECUTIVE SEARCH;2;Biotechn., Chimie, Industrie Pharmaceutique;7;Equipe Et Collaboration;;92
+MOSICA;2;ESN, Secteur informatique;1;Aws, Equipe Et Collaboration, Hadoop, Programmation, Python, Spark;;44
+MP DATA;38;;2.5;Apprentissage Profond, Git, Python;51057.3529411765;
+MSD;2;;;Equipe Et Collaboration;;75
+MYDRAL;5;ESN, Secteur informatique;7;Equipe Et Collaboration;54875;75
+NANTES UNIVERSITE;1;;;Anglais, Equipe Et Collaboration, Français, Rapport;34002;44
+NATIXIS;2;;;Equipe Et Collaboration;;75
+NATURE ET DECOUVERTES;1;;;Equipe Et Collaboration;;78
+NAVA ENGINEERING;1;Aérospatial, ESN, Industrie Aéronautique, Secteur informatique;7;Equipe Et Collaboration, Hadoop;48000;31
+NEO SOFT;1;;;Bases De Données, Equipe Et Collaboration, Excel, Git, Modélisation, Power Bi, Programmation, Python, Rapport, Sql, Statistique, Tableau;;75
+NEOXIA;2;ESN, Secteur informatique;;Apprentissage Profond;;75
+NESTLE OPERATIONAL SERVICES WORLDWIDE;3;;;Equipe Et Collaboration, Rapport;;75
+NEXORIS;1;;;Anglais, Communication, Equipe Et Collaboration, Power Bi, Sql;;75
+NEXTEAM;1;;;Autonome;;64
+NEXTON CONSULTING FR;1;;;Equipe Et Collaboration, Git;;59
+NIJI;1;;;Anglais, Communication, Equipe Et Collaboration, Git, Optimisation, Power Bi, Python, Spark, Sql, Tableau, Visualisation De Donnée;;69
+NISSAN;1;Industrie Auto, Meca, Navale;;Communication;;78
+NODYA;4;ESN, Secteur informatique;7;Equipe Et Collaboration;66833.3333333333;13
+NORGAY IT DIGITAL SERVICES;6;ESN, Secteur informatique;1;Modélisation;42300;44
+NOVA CONSULTING;1;;;Base De Donnée, Bases De Données, Equipe Et Collaboration, Excel, Modélisation, Optimisation, Python, Sql, Statistique;;75
+NOVENCIA;4;;;Equipe Et Collaboration;;75
+NOVO NORDISK;1;;;Anglais, Base De Donnée, Bases De Données, Equipe Et Collaboration, Excel, Git, Intelligence Artificielle, Modélisation, Optimisation, Programmation, Python, Résolution De Problèmes, Sql, Statistique;;28
+NUMBERLY;4;Communication, Internet, Média;;Anglais, Autonome, Curiosité, Python, Sql, Visualisation De Donnée;;75
+OBJECTWARE;4;ESN, Secteur informatique;1;Equipe Et Collaboration, Sql;;44
+OCDE;2;;;Equipe Et Collaboration;70263.84;75
+OCTO TECHNOLOGY;1;;;Apprentissage Profond;;75
+OCTOPUS ENERGY;3;;;Autonome;;75
+OGF;3;BEP, CAP, Particuliers, Services aux Personnes;;Azure, Equipe Et Collaboration, Sql;56750;75
+OKAIDI;1;;;A/B Testing, Curiosité, Equipe Et Collaboration, Git, Optimisation, Rigueur, Sql, Statistique;44000;59
+OMNICIEL;2;ESN, Secteur informatique, Services aux Entreprises;1;Equipe Et Collaboration, Rapport, Tableau, Visualisation De Donnée;44000;13
+ONEPOINT;10;ESN, Secteur informatique;0;Anglais, Equipe Et Collaboration;;75
+ONEY;1;;;Equipe Et Collaboration, Git, Programmation, Python, Sql, Statistique;;59
+OPEN;2;ESN, Secteur informatique;;Aws, Azure, Equipe Et Collaboration, Git, Python, Spark;;92
+OPERA CONSEIL;1;;;Apprentissage Profond;;69
+OPPBTP;2;BTP;7;Equipe Et Collaboration;;92
+OPTEAM IS;1;;;Natural Language Processing;;75
+ORANGE;7;ESN, Secteur informatique;2;Equipe Et Collaboration;;13
+ORANO;10;;0.666666666666667;Equipe Et Collaboration;;
+ORNIKAR;1;;;Communication, Equipe Et Collaboration, Français, Google Cloud, Modélisation, Optimisation, Python, Sql, Statistique;;75
+ORTEC;46;;0;Equipe Et Collaboration;;31
+ORTHOGRID SYSTEMS;2;ESN, Secteur informatique;;Apprentissage Profond;;67
+OSE ENGINEERING;7;;;Autonome;;
+OTTEO;2;ESN, Secteur informatique;1;Equipe Et Collaboration, Google Cloud, Modélisation;47000;59
+OUEST FRANCE;3;Communication, Internet, Média;0;Equipe Et Collaboration;;35
+OVHCLOUD;1;ESN, Secteur informatique;;Anglais, Equipe Et Collaboration, Excel, Optimisation;;59
+PACIFIC PECHE;1;;;Bases De Données, Equipe Et Collaboration, Excel, Français, Git, Optimisation, Programmation, Rapport, Tableau;;34
+PAIE RH SOLUTIONS;1;;;Equipe Et Collaboration, Rapport, Sql, Vba;;64
+PAPERNEST;46;;;Anglais;;75
+PARISSACLAY CENTER FOR DATA SCIENCE;1;;;Equipe Et Collaboration, Programmation, Python;;91
+PARTNAIRE;1;Services aux Entreprises;7;Equipe Et Collaboration;72500;45
+PEOPLE WAY;1;;;Equipe Et Collaboration;;75
+PERNOD RICARD;9;;;Git;;75
+PERSE BEAUTY;1;;;Autonome, Equipe Et Collaboration;;75
+PERSUADERS RH;2;Services aux Entreprises;7;Equipe Et Collaboration;;92
+PHILIPS;1;;;Anglais, Equipe Et Collaboration, Excel, Modélisation, Python;;75
+PICTARINE;1;;;Equipe Et Collaboration;;
+PIGMENT;1;ESN, Secteur informatique;;Apprentissage Profond, Communication;;
+PIXIE SERVICES FRANCE;4;ESN, Secteur informatique;7;Equipe Et Collaboration;;59
+PMU;3;Service public des collectivités territoriales;1;Equipe Et Collaboration;60000;75
+POLARYS;2;;;Anglais, Apprentissage Profond, Equipe Et Collaboration, Rigueur;;92
+POLYCONSEIL;4;ESN, Secteur informatique, NA;0;Aws, Equipe Et Collaboration, Excel, Français, Git, Modélisation, Optimisation, Programmation, Python;;75
+POSTULER;3;Services aux Entreprises;3;Equipe Et Collaboration;;57
+PRICEHUBBLE;7;ESN, Immobilier, Secteur informatique;;Anglais, Python, Spark;;75
+PRO BTP GROUPE;1;;;Equipe Et Collaboration;45000;94
+PROCTER GAMBLE;1;;;Communication;;75
+PROFIL;9;;;Equipe Et Collaboration;52500;75
+PROMOVACANCES;1;Hôtellerie, Loisirs, Restauration, Tourisme;1;Equipe Et Collaboration, Français;;75
+PROSOL;1;;;Autonome, Equipe Et Collaboration;;69
+PROXIEL;3;ESN, Secteur informatique;1;Equipe Et Collaboration;40000;13
+PSA;4;Commerce de gros, Distribution;0;Equipe Et Collaboration;;78
+PUBLICIS GROUPE;1;;;Azure, Git, Intelligence Artificielle, Modélisation, Optimisation, Python, Spark, Statistique;;75
+PUBLICIS SAPIENT;1;Communication, Internet, Média;;Bases De Données, Git;;75
+PUR;1;;;Apprentissage Profond;;75
+PWC;16;ESN, Secteur informatique;;Equipe Et Collaboration;;92
+QARE;1;;;Equipe Et Collaboration;;75
+QIMA;1;;;Rapport;;
+QUADRA INFORMATIQUE;1;;;Communication, Equipe Et Collaboration, Rapport, Rigueur;;67
+QUANTILIA;1;;;Anglais, Bases De Données, Equipe Et Collaboration, Python;;6
+QUANTUM SURGICAL;2;;;Apprentissage Profond;;34
+RADES;7;;3;Anglais, Curiosité, Equipe Et Collaboration, Excel;47500;
+RAKAM;2;Services aux Entreprises;;NA;;92
+RAKUTEN;1;;;Apprentissage Profond;;75
+RD2 CONSEIL;2;;;Equipe Et Collaboration;;69
+REACTIS SERVICES;3;ESN, Secteur informatique;1;Rapport;50000;94
+RECONOMIA;1;;;Autonome, Equipe Et Collaboration;;59
+RECRULAB;1;;;Autonome;50000;69
+RECRUTONS ENSEMBLE;1;;;Autonome;;13
+RENAULT;7;;;Anglais;;78
+REPROIT;2;Commerce de gros, Distribution, ESN, Secteur informatique;7;Equipe Et Collaboration;32440;59
+RHODIUM;1;;;Natural Language Processing;;75
+ROCHE;1;;;Autonome;;75
+ROULLIER;1;Industrie Agro-alimentaire;0;Equipe Et Collaboration, Optimisation, Rapport;;35
+RS TELECOM;1;;;Equipe Et Collaboration;;75
+RSM;2;Assurance, Banque, Finance;0;Excel, Français, Optimisation, Rapport;;44
+RTE INTERNATIONAL;1;;;Communication, Natural Language Processing, Programmation;;92
+SAEGUS;7;;4;Anglais, Azure, Equipe Et Collaboration, Excel, Français, Modélisation, Power Bi, Python, Sql, Tableau;54000;
+SAFILO;1;;;Equipe Et Collaboration;;92
+SAFRAN;23;;2.33333333333333;Equipe Et Collaboration;;77
+SAINT GOBAIN;2;;;Anglais, Equipe Et Collaboration, Français, Statistique;;92
+SAINT MACLOU;2;;;Equipe Et Collaboration, Rapport, Sql;34500;59
+SALOMON;2;;;Autonome;;74
+SANOFI;7;Biotechn., Chimie, Industrie Pharmaceutique;;Anglais;;69
+SATT SUD EST;1;;;Apprentissage Profond;35500;13
+SAUR;3;Environnement, Secteur Energie;4;Apprentissage Profond, Autonome;;75
+SCALIAN;2;Association, ESN, Santé, Secteur informatique, Social;7;Sql, Tableau;40000;35
+SCC;1;ESN, Secteur informatique;7;Equipe Et Collaboration;;92
+SCHNEIDER;5;;;Communication;;6
+SCIENCE ME UP;1;;;Anglais, Communication, Curiosité, Equipe Et Collaboration, Python;;
+SCOR;2;;;Apprentissage Profond, Natural Language Processing;;75
+SEB;2;Commerce de gros, Distribution, NA;0;Autonome;;53
+SEGULA TECHNOLOGIES;4;Industrie Auto, Meca, Navale, NA;3.5;Autonome, Equipe Et Collaboration;;91
+SENSE4DATA;1;;;Anglais, Communication, Equipe Et Collaboration, Excel, Français, Git, Modélisation, Programmation, Python, Sql, Statistique;;33
+SEPHORA;2;;;Equipe Et Collaboration;;45
+SEPT LIEUES;5;;7;Equipe Et Collaboration;64900;75
+SERCEL;1;;;Equipe Et Collaboration, Excel, Python, Statistique;;44
+SERMA TECHNOLOGIES;1;;;Equipe Et Collaboration;;33
+SERVIER;1;Biotechn., Chimie, Industrie Pharmaceutique;;Autonome;;92
+SEYOS;11;ESN, Secteur informatique;1;Equipe Et Collaboration;56363.6363636364;67
+SFR;6;Industrie high-tech, Telecom;0;Equipe Et Collaboration;;75
+SHIFT TECHNOLOGY;2;;;Anglais, Français, Statistique;;75
+SHIPPEO;44;;;Anglais, Equipe Et Collaboration, Excel, Français, Nettoyage De Donnée, Proactif, Rapport, Rigueur, Tableau;;75
+SHOPOPOP;1;Particuliers, Services aux Personnes;1;Equipe Et Collaboration, Git, Modélisation, Optimisation, Python, Sql;39500;44
+SHORTWAYS;1;;;Autonome, Rapport;;53
+SHOWROOMPRIVE;1;Communication, Internet, Média;0;Curiosité, Equipe Et Collaboration, Modélisation, Python, Rigueur, Sql, Statistique, Tensorflow;;93
+SIA PARTNERS;2;Services aux Entreprises, NA;;Anglais, C++, Equipe Et Collaboration, Excel, Français, Intelligence Artificielle, Optimisation, Programmation, Prévision, Python, Statistique;;75
+SIACI SAINT HONORE;2;;;Equipe Et Collaboration;;75
+SIEGE DE LAPHP;1;;;Equipe Et Collaboration;;75
+SIGHTENGINE;1;;;Python, Pytorch, Tensorflow;;
+SII;25;ESN, Secteur informatique;4.14285714285714;Equipe Et Collaboration;38854;59
+SILAMIR;1;;;Equipe Et Collaboration, Rigueur;;75
+SILKHOM;3;Services aux Entreprises;;Equipe Et Collaboration, Power Bi, Sql;46666.6666666667;56
+SIMCURE;1;;;Apprentissage Profond;;34
+SIPLEC;1;;;Equipe Et Collaboration, Excel, Français, Tableau;;94
+SIZE UP CONSULTING;2;ESN, Secteur informatique;7;Equipe Et Collaboration, Gestion De Projets;;75
+SKIILS;17;;3;Equipe Et Collaboration;59750;
+SMARTEO;1;;;Equipe Et Collaboration;;
+SNCF;2;;;Equipe Et Collaboration, Rapport;;75
+SNCF CONNECT TECH;4;;;Equipe Et Collaboration;;75
+SOCOMEC;1;;;Anglais, C++, Equipe Et Collaboration, Gestion De Projets, Intelligence Artificielle, Statistique;;67
+SODEBO;1;Industrie Agro-alimentaire;1;Equipe Et Collaboration, Statistique;;85
+SODEXO;44;;;Français;;92
+SOFTEAM;1;;;Anglais, Communication, Equipe Et Collaboration, Intelligence Artificielle, Modélisation, Programmation, Python;;75
+SOGETI;1;;;Azure, Bases De Données, Equipe Et Collaboration, Git, Modélisation, Power Bi, Python, Sql, Statistique;;31
+SOLUTEC;2;ESN, Secteur informatique, NA;;Equipe Et Collaboration, Modélisation, Power Bi, Python, Tableau;;31
+SOMFY;3;;;Equipe Et Collaboration;;74
+SOPRA STERIA;44;ESN, Secteur informatique;5.2;Equipe Et Collaboration;;
+SORARE;1;;;Communication;;75
+SOREDAB;2;Industrie Agro-alimentaire;0;Azure, Curiosité, Equipe Et Collaboration, Git, Optimisation, Python, Sql;;78
+SOYHUCE;2;;;Equipe Et Collaboration;;75
+SPARE PARTS 3D;1;;;Bases De Données, Git, Power Bi, Proactif, Programmation, Python, Sql, Tableau, Version Control, Visualisation De Donnée;;75
+SPARTEO;1;;;Anglais, Autonome, Equipe Et Collaboration, Français, Intelligence Artificielle, Python, Sql;;59
+SQLI;1;ESN, Secteur informatique;0;Equipe Et Collaboration;;76
+STAGES;3;Services aux Entreprises;0.333333333333333;Equipe Et Collaboration;15366.6666666667;92
+STALAVEN;1;;;Equipe Et Collaboration, Prévision, Python;;22
+STELLANTIS;8;;;Equipe Et Collaboration, Git;;78
+STEREOLABS;4;ESN, Secteur informatique, NA;;Equipe Et Collaboration;;75
+STREEM ENERGY;1;;;Apprentissage Profond;;75
+SUEZ;10;;0;Python;;78
+SULLY;1;;;Equipe Et Collaboration, Intelligence Artificielle, Python, Tableau;;38
+SUNTORY BEVERAGE FOOD FRANCE;1;;;Anglais, Aws, Azure, Communication, Equipe Et Collaboration, Excel, Git, Optimisation, Power Bi, Programmation, Python, Rapport, Serieux, Statistique, Tableau;65000;92
+SURICATE IT;1;;;Apprentissage Profond;;75
+SYMPHONYAI;1;;;Apprentissage Profond;;75
+SYNERGIE;1;;;Equipe Et Collaboration;;59
+SYNOPSIA;1;;;Anglais, Azure, Equipe Et Collaboration, Modélisation, Natural Language Processing, Power Bi, Programmation, Python, Sql;50000;75
+SYSTEMATHICS;2;;;Collecte De Données, Python, Visualisation De Donnée;;75
+SYSTNAPS;1;;;Anglais, Base De Donnée, Bases De Données, Equipe Et Collaboration, Français, Git, Programmation, Rapport, Statistique;;94
+TALAN;46;ESN, Secteur informatique;6.10344827586207;Equipe Et Collaboration;;75
+TALENTEEDS;1;;;Communication;;75
+TATA CONSULTANCY SERVICES;7;;4;Adaptabilité, Gestion De Projets, Git, Programmation, Sql;;
+TEADS;1;;;Communication;;34
+TEAM IS;6;ESN, Secteur informatique;1;Equipe Et Collaboration;67500;33
+TECH RIDERS;44;;;Autonome, Equipe Et Collaboration;;75
+TERRENA;1;;;Bases De Données, Equipe Et Collaboration, Rapport, Rigueur, Statistique, Tableau;;
+TF1;1;;;Communication, Equipe Et Collaboration, Excel, Français, Git, Optimisation, Power Bi, Programmation, Prévision, Python, Sql, Visualisation De Donnée;;75
+THALES;6;;;Equipe Et Collaboration;;92
+THE INFORMATION LAB;1;;;Equipe Et Collaboration;52500;75
+THE PRODUCT CREW;7;;;Français;;
+TORTOISE;1;ESN, Secteur informatique;;Base De Donnée, Equipe Et Collaboration, Intelligence Artificielle, Programmation, Python, Rigueur, Statistique;;75
+TOTAL ENERGIE;7;;0;Anglais, Aws, Azure, Git, Modélisation, Python, Statistique;;
+TOTALENERGIES;6;;;Anglais, Equipe Et Collaboration, Python;;92
+TOUTON;1;;;Anglais, Bases De Données, Equipe Et Collaboration, Excel, Français, Power Bi, Rapport, Sql, Visualisation De Donnée;;33
+TRSB;4;ESN, Secteur informatique;7;Anglais, Equipe Et Collaboration;;75
+TUANIS IT;2;ESN, Secteur informatique;7;Anglais, Equipe Et Collaboration, Hadoop, Modélisation, Optimisation, Power Bi, Rapport, Spark, Sql;;31
+TWENTY ONE TALENTS;2;Communication, Industrie high-tech, Internet, Média, Telecom;7;Equipe Et Collaboration;56500;75
+U IRIS;2;ESN, Secteur informatique;1;Equipe Et Collaboration;45000;44
+UBISOFT;3;ESN, Secteur informatique;0;Equipe Et Collaboration;;75
+UNIBAILRODAMCOWESTFIELD;2;Immobilier, NA;;Equipe Et Collaboration;;75
+UNITED SOLUTIONS;2;ESN, Secteur informatique;1;Equipe Et Collaboration, Modélisation, Optimisation;47500;69
+UNIVERSCIENCE;1;;;Equipe Et Collaboration;45500;75
+UNIVERSITE DE MONTPELLIER;1;;;Autonome;35940;34
+UNIVERSITE DE NANTES;1;;;Anglais, Equipe Et Collaboration, Français, Rapport;;44
+UNLCK RECRUTEMENT;4;ESN, Secteur informatique, Services aux Entreprises;3.5;Equipe Et Collaboration, Sql;52250;6
+UPTOO;7;Services aux Entreprises;;Rapport;56785.7142857143;13
+UTIGROUP;7;ESN, Secteur informatique;7;Equipe Et Collaboration;43857.1428571429;69
+UTWIN;1;;;Autonome;;69
+VAISALA;1;;;Anglais, Autonome, Bases De Données, Excel, Français, Git, Python;;75
+VALEO;4;Industrie Auto, Meca, Navale, NA;0;Equipe Et Collaboration;;95
+VALEURIAD;1;;;Equipe Et Collaboration, Git, Hadoop, Intelligence Artificielle, Modélisation, Natural Language Processing, Python, Pytorch, Spark, Sql, Tensorflow;;44
+VALOWAY;1;;;Aws, Azure, Communication, Curiosité, Equipe Et Collaboration, Excel, Intelligence Artificielle, Modélisation, Natural Language Processing, Optimisation, Power Bi, Prévision, Python, Spark, Sql, Tableau;52500;44
+VALTAO;1;;;Equipe Et Collaboration, Rapport;;95
+VEEPEE;2;Commerce de gros, Distribution, NA;;Aws, Equipe Et Collaboration, Git, Natural Language Processing, Python, Pytorch, Spark, Sql, Statistique, Tableau, Visualisation De Donnée;;75
+VENTE 2 SITE;1;;;Autonome;;94
+VERISURE;1;;;Anglais, Azure, Equipe Et Collaboration, Excel, Power Bi, Python, Rapport, Serieux, Sql, Tableau;;92
+VETOQUINOL;1;;;Anglais, Equipe Et Collaboration, Excel, Français, Sql, Tableau, Vba;;70
+VIATRIS;1;;;Anglais, Equipe Et Collaboration, Excel, Power Bi, Python, Rapport, Sql, Tableau;;69
+VIF;2;ESN, Industrie Agro-alimentaire, Secteur informatique, NA;7;Equipe Et Collaboration;;44
+VINCI;6;;;Equipe Et Collaboration;;92
+VISIAN;9;;4;Anglais, Python, Tableau;;
+VISUARY;1;;;Autonome, Proactif, Python, Pytorch;;75
+VIVERIS;5;ESN, Secteur informatique;1;Equipe Et Collaboration;45000;94
+VO2;1;;;Anglais, Communication, Excel, Proactif, Rapport, Sql;;75
+VOLVO;5;;;Equipe Et Collaboration;;69
+WAISSO;1;;;Anglais, Equipe Et Collaboration, Excel, Git, Tableau, Visualisation De Donnée;;75
+WALTERS PEOPLE;1;Commerce de gros, Distribution;1;Equipe Et Collaboration;37500;95
+WANTEEED;7;;4;Autonome, Equipe Et Collaboration;50000;
+WARNER MUSIC FRANCE;7;;;Equipe Et Collaboration;;
+WAVESTONE;2;Services aux Entreprises;0;Equipe Et Collaboration, Git, Tableau;;75
+WE IT;1;Communication, ESN, Internet, Média, Secteur informatique;1;Français;46000;
+WEFOX;1;;;Anglais, Bases De Données, Equipe Et Collaboration, Git, Python, Sql;;75
+WEKEY;1;;;Autonome, Equipe Et Collaboration;;79
+WESMART;1;;;Anglais, Azure, Collecte De Données, Communication, Equipe Et Collaboration, Excel, Français, Modélisation, Programmation, Python, Résolution De Problèmes, Spark, Statistique;55000;75
+WEWYSE;2;Communication, Internet, Média, NA;2;Anglais;;75
+WHEEL OF WORK;1;;;Equipe Et Collaboration;;59
+WITHINGS;4;Commerce de gros, Distribution;0;Français;;92
+WIVOO;16;;;Anglais, Communication, Equipe Et Collaboration, Programmation, Python, Sql;;
+WIZALY;1;;;Bases De Données, Equipe Et Collaboration, Git, Hadoop, Intelligence Artificielle, Rigueur, Spark, Sql;;75
+WIZVILLE;7;;2;Equipe Et Collaboration;50000;
+XFAB;44;;;Anglais, Communication, Equipe Et Collaboration, Excel, Français, Statistique;;91
+XL CATLIN;1;;;Communication, Equipe Et Collaboration;;75
+XPDEEP;1;;;Apprentissage Profond, Autonome;;38
+ZO;1;;;Anglais, Aws, Communication, Compétences En Présentation, Excel, Français, Git, Python, Statistique;;75
+>>>>>>> 542a02e (Include data folder and fix table rendering);;;;;;

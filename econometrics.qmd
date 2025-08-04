@@ -1,0 +1,135 @@
+## Économétrie
+
+
+Nous allons à présent procéder à une **analyse économétrique** visant à **explorer les déterminants du nombre de brevets déposés par les entreprises** (n_patents).
+
+<br>
+
+### Matrice de corrélation
+
+Avant de procéder à une analyse économétrique, il est crucial de mener une analyse préliminaire des corrélations entre les variables afin de mieux comprendre leurs relations potentielles. En effet, cette étape d'**analyse des corrélations** constitue un préalable indispensable pour justifier les choix méthodologiques et s'assurer de la pertinence des variables dans les modèles économétriques. 
+
+
+
+<div class="graph-section">
+  
+  
+```{r,echo=FALSE, warning=FALSE, message=FALSE}
+library(ggplot2)
+library(dplyr)
+library(patchwork)
+library(wordcloud2)
+library(scales)
+library(corrplot)
+library(knitr)    
+library(kableExtra)   
+library(ggplot2)    
+library(tidyr)        
+library(forcats)
+library(ggforce)
+library(stringr)
+library(corrplot)
+library(readr)
+library(dplyr)
+library(kableExtra)
+base_emp_inno <- read_delim(
+  "data/base_emp_inno.csv",  # Path to the CSV file
+  delim = ";",              # Delimiter used in the CSV file
+  col_names = TRUE,         # Use the first row as column names
+  col_types = cols(
+    .default = "c",         # Treat all columns as character by default
+    n_patents = "n",        # Parse 'n_patents' as numeric
+    n_offres = "n",         # Parse 'n_offres' as numeric
+    avg_wage = "n"          # Parse 'avg_wage' as numeric
+  ),
+  trim_ws = TRUE            # Trim whitespace from character strings
+)
+base_emp_inno <- base_emp_inno |>
+  mutate(
+    avg_wage = as.numeric(avg_wage),
+    n_offres = as.numeric(n_offres),
+    avg_req_exp = as.numeric(avg_req_exp),
+    n_patents = as.numeric(n_patents)
+  )
+
+data_numeric <- base_emp_inno[, c("avg_wage", "n_offres", "avg_req_exp", "n_patents")]
+matrice_correlation <- round(cor(data_numeric, use = "complete.obs"), 2)
+corrplot(matrice_correlation,
+method = "color",
+type = "upper",
+tl.col = "black",
+diag = FALSE,
+number.cex = 1.5,
+tl.cex = 1.2,
+number.digits = 2,
+col = colorRampPalette(c("blue", "grey97", "red"))(200),
+addCoef.col = "white",
+font.lab = 2)
+
+```
+La matrice de corrélation révèle une relation positive modérée (0.31) entre le salaire moyen (**avg_wage**) et l'expérience moyenne requise (**avg_req_exp**), indiquant que des salaires plus élevés sont généralement associés à des postes nécessitant davantage d'expérience. En revanche, une corrélation négative plus faible (-0.28) est observée entre le salaire moyen et le nombre de brevets déposés (**n_patents**), suggérant que les entreprises avec un grand nombre de brevets offrent en moyenne des salaires légèrement inférieurs. Enfin, les relations impliquant le nombre d'offres d'emploi (**n_offres**) sont très faibles, ce qui montre une quasi-indépendance entre cette variable et les autres. 
+Globalement, seule la relation entre salaire moyen et expérience requise ressort clairement, tandis que les autres variables présentent des corrélations négligeables.
+
+</div>
+
+
+<br>
+<br>
+<br>
+
+
+
+
+### Analyse économétrique
+Nous allons désormais passer à **l'analyse économétrique**. Pour cela, nous avons opté pour deux modèles de régressions linéaires : un **modèle bivarié**, où seule la relation entre le salaire moyen et le nombre de brevets est analysée, et un **modèle multivarié**, qui inclut également le nombre d'offres d'emploi publiées et l'expérience moyenne requise.
+Certaines variables ont été transformées en **logarithme** afin de mieux capturer les relations proportionnelles et de réduire l'impact des valeurs extrêmes présentes dans les données. Par exemple, le choix de log-transformer le nombre de brevets (n_patents), le salaire moyen (avg_wage) et le nombre d'offres (n_offres) repose sur l'hypothèse que les relations entre ces variables ne sont pas linéaires en valeur absolue, mais plutôt proportionnelles. Cette transformation permet également de faciliter l'interprétation des coefficients comme des élasticités, rendant les résultats économétriques plus intuitifs.
+<p>
+  (1) : <i>log_n_patents<sub>i</sub></i> = β<sub>0</sub> + β<sub>1</sub> × <i>log_avg_wage<sub>i</sub></i> + ε<sub>i</sub>
+</p>
+<p>
+  (2) : <i>log_n_patents<sub>i</sub></i> = β<sub>0</sub> + β<sub>1</sub> × <i>log_avg_wage<sub>i</sub></i> + β<sub>2</sub> × <i>log_n_offres<sub>i</sub></i> + β<sub>3</sub> × <i>avg_req_exp<sub>i</sub></i> + ε<sub>i</sub>
+</p>
+
+
+
+
+
+<div class="graph-section">
+  
+
+<table style="text-align:center"><caption><strong>Résultats</strong></caption>
+<tr><td colspan="3" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left"></td><td colspan="2"><em>Dependent variable:</em></td></tr>
+<tr><td></td><td colspan="2" style="border-bottom: 1px solid black"></td></tr>
+<tr><td style="text-align:left"></td><td colspan="2">log_n_patents</td></tr>
+<tr><td style="text-align:left"></td><td>(1)</td><td>(2)</td></tr>
+<tr><td colspan="3" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left">log_avg_wage</td><td>-0.462<sup>**</sup></td><td>-0.863<sup>***</sup></td></tr>
+<tr><td style="text-align:left"></td><td>(0.206)</td><td>(0.299)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td></tr>
+<tr><td style="text-align:left">log_n_offres</td><td></td><td>0.040</td></tr>
+<tr><td style="text-align:left"></td><td></td><td>(0.099)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td></tr>
+<tr><td style="text-align:left">avg_req_exp</td><td></td><td>-0.028</td></tr>
+<tr><td style="text-align:left"></td><td></td><td>(0.039)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td></tr>
+<tr><td style="text-align:left">Constant</td><td>5.087<sup>**</sup></td><td>9.377<sup>***</sup></td></tr>
+<tr><td style="text-align:left"></td><td>(2.194)</td><td>(3.155)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td></tr>
+<tr><td colspan="3" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left">Observations</td><td>162</td><td>87</td></tr>
+<tr><td style="text-align:left">R<sup>2</sup></td><td>0.031</td><td>0.117</td></tr>
+<tr><td style="text-align:left">Adjusted R<sup>2</sup></td><td>0.024</td><td>0.085</td></tr>
+<tr><td style="text-align:left">Residual Std. Error</td><td>1.008 (df = 160)</td><td>0.853 (df = 83)</td></tr>
+<tr><td style="text-align:left">F Statistic</td><td>5.034<sup>**</sup> (df = 1; 160)</td><td>3.658<sup>**</sup> (df = 3; 83)</td></tr>
+<tr><td colspan="3" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left"><em>Note:</em></td><td colspan="2" style="text-align:right"><sup>*</sup>p<0.1; <sup>**</sup>p<0.05; <sup>***</sup>p<0.01</td></tr>
+</table>
+
+
+
+Dans le **modèle (1)**, seul le salaire moyen (log_avg_wage) est inclus comme variable explicative. Le coefficient associé à cette variable est significatif à un niveau de 5 % et indique une relation négative (-0,462). Cela signifie qu'une augmentation de 1 % du salaire moyen est associée à une diminution de 0,462 % du nombre de brevets déposés, toutes choses égales par ailleurs.
+Cette relation négative peut être interprétée de plusieurs manières. D'une part, elle pourrait refléter que les entreprises en phase de démarrage ou dans les premières étapes de leur cycle de vie tendent à être particulièrement innovantes. Ces start-ups ou jeunes entreprises cherchent souvent à se démarquer en déposant un grand nombre de brevets. Cependant, elles disposent généralement de ressources financières limitées, ce qui se traduit par des salaires relativement modestes en comparaison avec des entreprises plus matures. D'autre part, cette relation pourrait également indiquer que les entreprises très innovantes, qui déposent davantage de brevets, allouent une part importante de leurs ressources à la recherche et développement (R&D) plutôt qu'à l'attractivité salariale. Ces entreprises privilégieraient ainsi l'investissement stratégique dans l'innovation, ce qui pourrait expliquer cette corrélation négative.
+
+Le **modèle (2)** enrichit l'analyse en ajoutant deux nouvelles variables explicatives : le logarithme du nombre d'offres publiées (log_n_offres) et l'expérience moyenne requise (avg_req_exp). Dans ce modèle, le coefficient du salaire moyen reste négatif (-0,880) et devient encore plus significatif (p < 0,01). Cependant, les deux nouvelles variables ne sont pas statistiquement significatives. Cela suggère que ni le nombre d'offres publiées ni l'expérience moyenne requise ne jouent un rôle déterminant dans l'explication du nombre de brevets déposés.
+
+Enfin, les indicateurs de qualité des modèles, tels que le R² ajusté, restent relativement faibles (0,024 pour le modèle (1) et 0,088 pour le modèle (2)). Cela indique que les variables explicatives incluses expliquent une petite partie de la variation du nombre de brevets. Toutefois, le modèle (2) montre une légère amélioration par rapport au modèle (1), avec une meilleure capacité explicative globale.
+
+En résumé, cette analyse met en évidence une **relation significative et négative entre le salaire moyen et le nombre de brevets déposés**. Cependant, les autres variables explicatives n’apportent pas d’évidence claire quant à leur impact. Ces résultats suggèrent que les entreprises qui déposent plus de brevets pourraient se concentrer sur des stratégies autres que l'attractivité salariale ou l'expérience des candidats pour stimuler leur innovation.
+</div>

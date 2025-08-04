@@ -1,0 +1,519 @@
+## Analyses Bivariées
+
+Dans cette section, nous analysons les relations entre différentes variables liées à l’innovation et aux compétences requises par les entreprises. 
+Pour cela, nous procédons à des **analyses bivariées** permettant de comparer les variables telles que le ***nombre de brevets déposés***, le ***nombre d’offres d’emploi publiées***, les ***compétences requises par secteur*** et le ***salaire moyen***. Ces analyses servent de base pour détecter des associations ou tendances qui orienteront les étapes économétriques ultérieures.
+
+Ces analyses permettent d’explorer les liens entre innovation, compétences et dynamiques sectorielles, tout en posant les bases pour des investigations économétriques plus approfondies.
+
+<br>
+
+### Graphique 1
+<div class="graph-section">
+  
+```{r,echo=FALSE, warning=FALSE, message=FALSE}
+library(ggplot2)
+library(dplyr)
+library(patchwork)
+library(readr)
+
+
+
+base_emp_inno <- read_delim(
+  "data/base_emp_inno.csv",  # Path to the CSV file
+  delim = ";",              # Delimiter used in the CSV file
+  col_names = TRUE,         # Use the first row as column names
+  col_types = cols(
+    .default = "c",         # Treat all columns as character by default
+    n_patents = "n",        # Parse 'n_patents' as numeric
+    n_offres = "n",         # Parse 'n_offres' as numeric
+    avg_wage = "n"          # Parse 'avg_wage' as numeric
+  ),
+  trim_ws = TRUE            # Trim whitespace from character strings
+)
+
+ipc_labels <- c("A" = "Besoins Humains",
+                "B" = "Opérations/Transport",
+                "C" = "Chimie/Métallurgie",
+                "D" = "Textiles/Papier",
+                "E" = "Constructions",
+                "F" = "Ingénierie Mécanique",
+                "G" = "Physique",
+                "H" = "Électricité")
+
+palette <- c("#406F71", "#71B6AF", "#9DC8C8", "#D4E1E1", "#B8BABD", "#718A8C", "#5F9EA0", "#4A6F79")
+
+ipc_summary <- base_emp_inno |> 
+  filter(!is.na(ipc_main_code)) |> 
+  mutate(ipc_section = substr(ipc_main_code, 1, 1)) |> 
+  filter(ipc_section %in% names(ipc_labels)) |> 
+  group_by(ipc_section) |> 
+  summarise(n_brevets = n()) |> 
+  mutate(ipc_section_label = ipc_labels[ipc_section]) |> 
+  arrange(desc(n_brevets))  
+
+sector_order <- ipc_summary$ipc_section_label
+
+plot_brevets <- ggplot(ipc_summary, aes(x = factor(ipc_section_label, levels = sector_order), 
+                                        y = n_brevets, 
+                                        fill = ipc_section_label)) +
+  geom_bar(stat = "identity", color = "black", width = 0.7) +
+  scale_fill_manual(values = palette, guide = "none") +
+  labs(title = "",
+       x = NULL, y = "Nombre de brevets") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+ipc_offres <- base_emp_inno |> 
+  filter(!is.na(ipc_main_code)) |> 
+  mutate(ipc_section = substr(ipc_main_code, 1, 1)) |> 
+  filter(ipc_section %in% names(ipc_labels)) |> 
+  group_by(ipc_section) |> 
+  summarise(n_offres = sum(n_offres, na.rm = TRUE)) |> 
+  mutate(ipc_section_label = ipc_labels[ipc_section])
+
+plot_offres <- ggplot(ipc_offres, aes(x = factor(ipc_section_label, levels = sector_order), 
+                                      y = n_offres, 
+                                      fill = ipc_section_label)) +
+  geom_bar(stat = "identity", color = "black", width = 0.7) +
+  scale_fill_manual(values = palette, guide = "none") +
+  labs(title = "",
+       x = NULL, y = "Nombre d'offres") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+combined_plot <- plot_brevets | plot_offres 
+combined_plot + plot_annotation(
+  title = "Comparaison entre Brevets et Offres d'Emploi par Secteur IPC")
+
+
+```
+Ce graphique compare le nombre de brevets déposés et le nombre d'offres d'emploi publiées par secteur IPC (International Patent Classification).
+Le premier graphique montre que le secteur des **Besoins Humains** est de loin le plus actif en termes de brevets déposés, suivi par les secteurs des **Opérations/Transport** et de la **Physique**. Les secteurs comme les **Textiles/Papier** et les **Constructions** apparaissent en revanche comme beaucoup moins innovants, avec un nombre relativement faible de brevets.
+Le deuxième graphique met en évidence les secteurs les plus dynamiques en termes d'offres d'emploi. Contrairement au classement par brevets, les secteurs de **l'Électricité**, de **l'Ingénierie Mécanique** et des **Opérations/Transport** dominent ici. Le secteur des **Besoins Humains**, bien qu'il se distingue en innovation (brevets), est moins représenté en termes d'offres d'emploi, indiquant un potentiel décalage entre innovation et création d'emplois.
+Cette comparaison montre que les secteurs innovants ne génèrent pas nécessairement le plus grand volume d'offres d'emploi, soulignant des priorités différentes. 
+</div>
+
+<br>
+<br>
+
+
+
+### Graphique 2
+<div class="graph-section">
+
+```{r,echo=FALSE, warning=FALSE, message=FALSE}
+# Filtrer les données
+filtered_data <- base_emp_inno |> 
+  mutate(
+    avg_req_exp = as.numeric(avg_req_exp),
+    avg_wage = as.numeric(avg_wage)
+  ) |> 
+  filter(!is.na(avg_req_exp) & !is.na(avg_wage))
+
+# Graphique
+ggplot(filtered_data, aes(x = avg_req_exp, y = avg_wage)) +
+  geom_point(aes(color = avg_req_exp), size = 2.5, alpha = 0.8) +
+  geom_smooth(method = "lm", color = "#406f71", se = FALSE, linewidth = 1) +
+  labs(
+    title = "Relation entre le salaire moyen et les années d'expérience requise",
+    subtitle = "Avec régression linéaire",
+    x = "Années d'expérience requise",
+    y = "Salaire moyen (€)"
+  ) +
+  scale_color_gradient(low = "#d4e1e1", high = "#71b6af") +
+  theme_minimal() +
+  theme(legend.position = "none")
+```
+Ce graphique examine **la relation entre le salaire moyen (en euros) et les années d'expérience requises pour les postes**. Les points représentent des observations individuelles, et la ligne de régression linéaire illustre une tendance générale.
+
+On observe une légère **corrélation positive entre le nombre d'années d'expérience requises et le salaire moyen**, indiquant que les postes exigeant plus d'expérience tendent à offrir des salaires plus élevés. Toutefois, cette relation reste modérée, comme en témoignent les écarts importants entre les points et la ligne de régression, suggérant qu'il existe d'autres facteurs influençant les salaires.
+
+Dans l'ensemble, ce graphique met en évidence une tendance attendue mais non systématique : **une expérience accrue est souvent associée à une meilleure rémunération, mais cela n'est pas toujours le cas.**
+
+
+</div>
+
+<br>
+<br>
+
+
+
+### Graphique 3
+<div class="graph-section">
+  
+```{r,echo=FALSE, warning=FALSE, message=FALSE}
+palette_custom <- c("#406F71", "#71B6AF", "#9DC8C8", "#D4E1E1")
+
+ggplot(base_emp_inno, aes(x = n_patents,
+y = n_offres)) +
+geom_point(color = palette_custom[2],
+size = 3,
+alpha = 0.7) +
+geom_smooth(method = "lm",
+color = palette_custom[1],
+se = FALSE,
+linewidth = 1.2) +
+labs(title = "Relation entre le nombre de brevets déposés et le nombre \n offres d'emploi publiées",
+x = "Nombre de brevets déposés",
+y = "Nombre d'offres d'emploi") +
+ylim(0, 80) +
+theme_minimal(base_size = 14) +
+theme(panel.grid.major = element_line(color = palette_custom[4]),
+panel.grid.minor = element_blank())
+
+```
+Ce graphique illustre la **relation entre le nombre de brevets déposés et le nombre d'offres d'emploi publiées par les entreprises.**
+
+Une proportion importante des entreprises présentes dans la base ne déposent aucun brevet, ce qui explique la forte concentration des points près de l'origine.
+Parmi les entreprises ayant déposé des brevets, on observe que **l'augmentation du nombre de brevets déposés n'entraîne pas nécessairement une augmentation significative du nombre d'offres d'emploi publiées**, comme le montre la faible pente de la ligne de régression.
+
+Cela suggère que d'autres facteurs, comme la taille de l'entreprise ou son secteur d'activité, peuvent jouer un rôle plus déterminant dans le volume des offres d'emploi.
+
+
+</div>
+
+
+<br>
+<br>
+
+
+### Graphique 4
+<div class="graph-section">
+  
+```{r,echo=FALSE, warning=FALSE, message=FALSE}
+library(readr)
+library(tidyr)
+library(stringr)
+library(ggplot2)
+library(dplyr)
+
+base_emp_inno <- read_delim(
+  "data/base_emp_inno.csv",  # Path to the CSV file
+  delim = ";",              # Delimiter used in the CSV file
+  col_names = TRUE,         # Use the first row as column names
+  col_types = cols(
+    .default = "c",         # Treat all columns as character by default
+    n_patents = "n",        # Parse 'n_patents' as numeric
+    n_offres = "n",         # Parse 'n_offres' as numeric
+    avg_wage = "n"          # Parse 'avg_wage' as numeric
+  ),
+  trim_ws = TRUE            # Trim whitespace from character strings
+)
+
+base_emp_inno_skills <- base_emp_inno |>
+  separate_rows(top_skill_req, sep = ",") |>  
+  mutate(top_skill_req = str_trim(top_skill_req)) |>  
+  filter(!is.na(top_skill_req) & top_skill_req != "")  
+
+skill_innovation <- base_emp_inno_skills |>
+  group_by(top_skill_req) |>
+  summarise(total_patents = sum(n_patents, na.rm = TRUE),  
+            avg_patents = mean(n_patents, na.rm = TRUE),  
+            count_offers = n()) |>
+  arrange(desc(total_patents)) |>
+  slice_head(n = 10) 
+
+
+ggplot(skill_innovation, aes(x = reorder(top_skill_req, total_patents), 
+                             y = total_patents)) +
+  geom_bar(stat = "identity", 
+           fill = "#406f71") +
+  coord_flip() +
+  labs(title = "Compétences les plus associées à l'innovation",
+       subtitle = "Analyse des compétences en fonction du nombre de brevets déposés",
+       x = "",
+       y = "Nombre total de Brevets") +
+  theme_minimal() +
+  theme(plot.title = element_text(hjust = 0.5, size = 16, face = "bold"),
+        plot.subtitle = element_text(hjust = 0.5, size = 12),
+        axis.text = element_text(size = 10),
+        axis.title = element_text(size = 12),
+        panel.grid.major = element_line(color = "gray80"))
+
+```
+Le graphique montre les compétences les plus fréquemment associées à l'innovation, mesurée par le nombre total de brevets déposés. 
+
+Il est évident que **"Équipe et Collaboration"** domine largement en termes d'importance, ce qui reflète la nécessité de travailler en groupe pour conduire des projets innovants. Cela souligne l'importance des dynamiques collaboratives dans les entreprises innovantes, où l'échange d'idées et le travail d'équipe jouent un rôle central.
+
+**"Anglais"** arrive en deuxième position, mettant en lumière le besoin d'une compétence linguistique essentielle dans un environnement globalisé, où les partenariats internationaux et la communication avec des équipes multiculturelles sont monnaie courante. Suivent des compétences techniques telles que **"Apprentissage Profond"**, qui illustre l'importance croissante de l'intelligence artificielle et du machine learning dans les processus d'innovation.
+
+Des compétences transversales comme **"Communication", "Rapport", et "Programmation"** complètent cette liste en soulignant que, pour innover, les entreprises doivent combiner des capacités relationnelles, une maîtrise technique et une aptitude à documenter et structurer leurs projets.
+
+En conclusion, ce graphique révèle que l'innovation est un processus multidimensionnel qui repose sur une combinaison équilibrée de compétences interpersonnelles, linguistiques et techniques. Cela souligne l'importance pour les entreprises de favoriser un environnement de travail collaboratif tout en investissant dans le développement des compétences technologiques et globales.
+</div> 
+
+
+
+
+
+<br>
+<br>
+
+
+
+### Graphique 5
+<div class="graph-section">
+```{r,echo=FALSE, warning=FALSE, message=FALSE}
+
+library(ggplot2)
+library(dplyr)
+library(patchwork)
+library(wordcloud2)
+library(dplyr)
+library(scales)
+library(corrplot)
+library(knitr)    
+library(kableExtra)   
+library(ggplot2)    
+library(dplyr)    
+library(tidyr)        
+library(forcats)
+library(ggforce)
+library(stringr)
+
+data_separated <- base_emp_inno |>
+  separate_rows(sector_main, sep = ",") |>
+  separate_rows(top_skill_req, sep = ",") |>
+  mutate(sector_main = str_trim(sector_main),
+         top_skill_req = str_trim(top_skill_req)) |>
+  filter(!is.na(sector_main) & sector_main != "NA",
+         !is.na(top_skill_req) & top_skill_req != "")
+
+top_sectors <- data_separated |>
+  count(sector_main, name = "sector_count") |>
+  arrange(desc(sector_count)) |>
+  slice_head(n = 10)
+
+top_skills <- data_separated |>
+  count(top_skill_req, name = "skill_count") |>
+  arrange(desc(skill_count)) |>
+  slice_head(n = 15)
+
+filtered_data <- data_separated |>
+  filter(sector_main %in% top_sectors$sector_main & top_skill_req %in% top_skills$top_skill_req)
+
+sector_skill <- filtered_data |>
+  group_by(sector_main, top_skill_req) |>
+  summarise(count = n(), .groups = "drop") |>
+  group_by(sector_main) |>
+  mutate(percentage = count / sum(count) * 100) |>
+  ungroup() |>
+  mutate(
+    sector_main = factor(sector_main, levels = top_sectors$sector_main),
+    top_skill_req = factor(top_skill_req, levels = rev(top_skills$top_skill_req)))
+
+ggplot(sector_skill, aes(x = sector_main, 
+                         y = top_skill_req, 
+                         fill = percentage)) +
+  geom_tile(color = "white") +
+  scale_fill_gradient(low = "#D4E1E1", 
+                      high = "#406f71", 
+                      name = "Pourcentage") +
+  labs(title = "Pourcentage des compétences les plus demandées par secteur",
+       x = "",
+       y = "") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+
+
+```
+Ce graphique met en évidence les **compétences les plus demandées par secteur d’activité**.
+
+On observe que des compétences transversales comme le **travail en équipe**, la **collaboration**, et **l’anglais** sont fréquemment recherchées dans plusieurs secteurs, notamment dans les Banques, les Services aux Entreprises, et le Secteur informatique. Les **compétences techniques**, telles que Python, SQL, et la Statistique, dominent dans les secteurs axés sur les données comme les Banques, les Assurances, et les ESN, où l’analyse quantitative et la gestion des données sont essentielles.
+
+Certains secteurs affichent des besoins plus spécifiques : par exemple, les Banques et le Secteur informatique privilégient des compétences en **Apprentissage profond** et Modélisation, reflétant l’importance croissante des technologies d’intelligence artificielle et d’analyse avancée. En revanche, des secteurs comme la Distribution et le Commerce de gros mettent davantage l’accent sur des **compétences relationnelles** telles que la Communication et le Rapport, qui sont cruciales pour leurs activités opérationnelles. 
+
+Ce graphique souligne donc à la fois des compétences communes et des spécialisations sectorielles.
+
+</div>
+
+<br>
+<br>
+
+
+### Graphique 6
+<div class="graph-section">
+  
+```{r,echo=FALSE, warning=FALSE, message=FALSE}
+## Répartition des compétences demandées par secteur (en %) 
+
+unique_skills <- base_emp_inno |>
+  separate_rows(top_skill_req, sep = ",") |>
+  mutate(skill_list = str_trim(top_skill_req)) |>
+  pull(skill_list) |>
+  unique() |>
+  sort()
+
+data_science_skills <- c("Bases De Données", "Base De Donnée", "Bases De Données Management",
+                         "SQL", "Tableau", "Visualisation De Donnée", "Statistique", 
+                         "Collecte De Données", "Python", "R Studio", "Power Bi",
+                         "Feature Engineering", "Preprocessing", "Business Acumen", 
+                         "Statistical Modeling", "Nettoyage De Donnée", "Modélisation")
+
+machine_learning_skills <- c("Apprentissage Profond", "Intelligence Artificielle", 
+                             "Pytorch", "Tensorflow", "Natural Language Processing", 
+                             "A/B Testing", "Prévision", "Résolution De Problèmes", 
+                             "Optimisation", "Feature Engineering", "Matplotlib", 
+                             "Seaborn", "Spark", "Hadoop")
+
+categorized_skills <- data.frame(skill = unique_skills) |>
+  mutate(category = case_when(
+    skill %in% data_science_skills ~ "Data Science",
+    skill %in% machine_learning_skills ~ "Machine Learning",
+    TRUE ~ "Autres"))
+
+data_with_categories <- base_emp_inno |>
+  separate_rows(sector_main, sep = ",") |>
+  separate_rows(top_skill_req, sep = ",") |>
+  mutate(sector_main = str_trim(sector_main), 
+         top_skill_req = str_trim(top_skill_req)) |>
+  filter(!is.na(sector_main) & sector_main != "NA",
+         !is.na(top_skill_req) & top_skill_req != "") |>
+  left_join(categorized_skills, by = c("top_skill_req" = "skill")) |>
+  filter(!is.na(category)) |>
+  group_by(sector_main, category) |>
+  summarise(count = n(), .groups = "drop") |>
+  group_by(sector_main) |>
+  mutate(percentage = count / sum(count) * 100) |>
+  ungroup()
+
+top_sectors <- data_with_categories |>
+  group_by(sector_main) |>
+  summarise(total_count = sum(count)) |>
+  arrange(desc(total_count)) |>
+  slice_head(n = 15) |>
+  pull(sector_main)
+
+filtered_data <- data_with_categories |>
+  filter(sector_main %in% top_sectors)
+
+palette <- c("Data Science" = "#71B6AF", 
+             "Machine Learning" = "#406F71", 
+             "Autres" = "#D4E1E1")
+
+ggplot(filtered_data, aes(x = reorder(sector_main, -count), 
+                          y = percentage, 
+                          fill = category)) +
+  geom_bar(stat = "identity", 
+           position = "stack", 
+           color = "black", 
+           width = 0.7) +
+  scale_fill_manual(values = palette, name = "Catégorie de Compétences") +
+  labs(title = "Répartition des compétences demandées par secteur (en %)",
+       x = "",
+       y = "Pourcentage des compétences demandées") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+
+```
+Ce graphique illustre la répartition des compétences demandées par secteur en pourcentage, réparties en trois catégories : Autres, Data Science et Machine Learning.
+
+Les compétences en **Machine Learning** sont particulièrement prisées dans les secteurs des ESN, du secteur informatique et de l'Internet, tandis qu'elles sont très marginales dans des secteurs comme l'immobilier ou le commerce de gros. Les compétences en **Data Science** occupent également une place importante, notamment dans les secteurs de l'Internet, de la banque et de l'assurance, mais restent moins présentes dans des secteurs comme l'immobilier ou l'industrie agroalimentaire. Enfin, les compétences dites autres dominent largement dans la plupart des secteurs, à l'exception notable des ESN et du secteur informatique, où les compétences techniques liées à la Data Science et au Machine Learning sont particulièrement valorisées. Cette répartition montre que les compétences techniques sont principalement recherchées dans les secteurs technologiques et financiers, alors qu'elles restent secondaires dans des domaines plus traditionnels comme l'immobilier ou l'agroalimentaire.
+</div>
+
+
+<br>
+<br>
+
+
+### Word Cloud 1
+<div class="graph-section">
+  
+##### **Compétences pondérées par les brevets**
+```{r,echo=FALSE, warning=FALSE, message=FALSE}
+
+# Ensure necessary libraries are loaded
+library(dplyr)
+library(tidyr)
+library(scales)
+library(wordcloud2)
+library(htmlwidgets)
+
+# Filter and process the data
+competences_salary <- base_emp_inno |>
+  filter(!is.na(avg_wage), !is.na(top_skill_req)) |>
+  mutate(skills_split = strsplit(top_skill_req, ",\\s*")) |>
+  unnest(skills_split) |>
+  group_by(skills_split) |>
+  summarise(mean_salary = mean(avg_wage, na.rm = TRUE)) |>
+  filter(!is.na(skills_split) & skills_split != "NA") |>
+  arrange(desc(mean_salary))
+
+# Prepare color column with shades of blue
+competences_salary <- competences_salary |>
+  mutate(
+    scaled_salary = log10(mean_salary + 1),  # Scale salary to avoid large jumps
+    color = scales::col_numeric(
+      palette = c("#D4E1E1", "#71B6AF", "#406F71", "#1D4E5F"),  # Custom blue shades
+      domain = range(mean_salary, na.rm = TRUE)
+    )(mean_salary)
+  )
+
+# Save the word cloud to an HTML file
+wordcloud_file <- "competences_salary_wordcloud.html"
+
+# Generate and save the word cloud
+saveWidget(
+  wordcloud2(
+    data = competences_salary %>% select(skills_split, scaled_salary),
+    size = 0.5,
+    color = competences_salary$color,  # Use the custom blue palette
+    backgroundColor = "white",
+    rotateRatio = 0,
+    gridSize = 10,
+    fontWeight = "bold"
+  ),
+  wordcloud_file,
+  selfcontained = TRUE
+)
+
+```
+
+<iframe src="competences_patents_wordcloud.html" width="100%" height="600px" style="border:none;"></iframe>
+
+
+</div> 
+```{r,echo=FALSE, warning=FALSE, message=FALSE}
+### Word cloud ----
+library(wordcloud2)
+library(dplyr)
+library(scales)
+```
+
+<br>
+<br>
+
+
+### Word Cloud 2
+<div class="graph-section">
+
+##### **Compétences pondérées par les salaires**
+```{r,echo=FALSE, warning=FALSE, message=FALSE}
+
+competences_salary <- base_emp_inno |>
+  filter(!is.na(avg_wage), !is.na(top_skill_req)) |>
+  mutate(skills_split = strsplit(top_skill_req, ",\\s*")) |>
+  unnest(skills_split) |>
+  group_by(skills_split) |>
+  summarise(mean_salary = mean(avg_wage, na.rm = TRUE)) |>
+  filter(!is.na(skills_split) & skills_split != "NA") |>
+  arrange(desc(mean_salary))
+
+competences_salary <- competences_salary |>
+  mutate(color = scales::col_numeric(palette = "Blues", 
+                                     domain = range(mean_salary))
+         (mean_salary))
+
+wordcloud2(data = competences_salary,
+          size = 0.2,
+           color = competences_salary$color, 
+           backgroundColor = "white",
+           rotateRatio = 0,
+           gridSize = 10, 
+           fontWeight = "bold")
+
+
+```
+</div> 

@@ -1,0 +1,337 @@
+## ANALYSE BIVARIES
+### Y a-t-il des compétences associées avec plus d’innovation des entreprises?
+<div class="graph-section">
+  <h2>Caractères </h2>
+  <p>This graph shows the relationship between X and Y variables.</p>
+```{r,echo=FALSE, warning=FALSE, message=FALSE}
+library(readr)
+library(tidyr)
+library(stringr)
+library(ggplot2)
+library(dplyr)
+base_emp_inno <- read_delim(
+  "data/base_emp_inno.csv",  # Path to the CSV file
+  delim = ";",              # Delimiter used in the CSV file
+  col_names = TRUE,         # Use the first row as column names
+  col_types = cols(
+    .default = "c",         # Treat all columns as character by default
+    n_patents = "n",        # Parse 'n_patents' as numeric
+    n_offres = "n",         # Parse 'n_offres' as numeric
+    avg_wage = "n"          # Parse 'avg_wage' as numeric
+  ),
+  trim_ws = TRUE            # Trim whitespace from character strings
+)
+
+base_emp_inno_skills <- base_emp_inno |>
+  separate_rows(top_skill_req, sep = ",") |>  
+  mutate(top_skill_req = str_trim(top_skill_req)) |>  
+  filter(!is.na(top_skill_req) & top_skill_req != "")  
+
+skill_innovation <- base_emp_inno_skills |>
+  group_by(top_skill_req) |>
+  summarise(total_patents = sum(n_patents, na.rm = TRUE),  
+            avg_patents = mean(n_patents, na.rm = TRUE),  
+            count_offers = n()) |>
+  arrange(desc(total_patents)) |>
+  slice_head(n = 10) 
+
+ggplot(skill_innovation, aes(x = reorder(top_skill_req, total_patents), 
+                             y = total_patents)) +
+  geom_bar(stat = "identity", 
+           fill = "#406f71") +
+  coord_flip() +
+  labs(title = "Compétences les plus associées à l'innovation (au nombre de brevets)",
+       subtitle = "Analyse des compétences en fonction du nombre de brevets déposés",
+       x = "",
+       y = "Nombre total de Brevets") +
+  theme_minimal() +
+  theme(plot.title = element_text(hjust = 0.5, size = 16, face = "bold"),
+        plot.subtitle = element_text(hjust = 0.5, size = 12),
+        axis.text = element_text(size = 10),
+        axis.title = element_text(size = 12),
+        panel.grid.major = element_line(color = "gray80"))
+
+```
+</div> 
+
+### Interprétation du graphique
+
+Le graphique ci-dessus illustre les compétences les plus fréquemment associées à l'innovation, mesurée par le nombre total de brevets déposés. Il met en avant l'importance cruciale de certaines compétences clés dans les environnements innovants.
+
+- **"Équipe et Collaboration"** se distingue nettement comme la compétence la plus liée à l'innovation, soulignant la valeur du travail en groupe pour mener des projets innovants. Cela reflète le rôle fondamental des dynamiques collaboratives dans les entreprises modernes, où l'échange d'idées et la coopération sont essentiels.
+- **"Anglais"**, en deuxième position, met en lumière l'importance de cette compétence linguistique dans un monde globalisé. La capacité à collaborer à l'international et à communiquer efficacement dans un environnement multiculturel est devenue incontournable.
+- Les compétences techniques, telles que **"Apprentissage Profond"**, illustrent l'essor de l'intelligence artificielle et du machine learning dans les processus d'innovation.
+
+D'autres compétences transversales, comme **"Communication"**, **"Rapport"**, et **"Programmation"**, complètent le tableau. Ces compétences démontrent que l'innovation repose sur une combinaison équilibrée de capacités relationnelles, techniques, et organisationnelles.
+
+En conclusion, ce graphique met en lumière que l'innovation est un processus complexe et multidimensionnel. Elle nécessite une synergie entre des compétences interpersonnelles, linguistiques et techniques. Les entreprises doivent ainsi créer des environnements collaboratifs tout en investissant dans le développement des compétences clés pour maintenir leur avantage compétitif.
+
+
+### Word cloud
+```{r,echo=FALSE, warning=FALSE, message=FALSE}
+### Word cloud ----
+library(wordcloud2)
+library(dplyr)
+library(scales)
+```
+
+#### Compétences pondérées par le salaire
+```{r,echo=FALSE, warning=FALSE, message=FALSE}
+
+competences_salary <- base_emp_inno |>
+  filter(!is.na(avg_wage), !is.na(top_skill_req)) |>
+  mutate(skills_split = strsplit(top_skill_req, ",\\s*")) |>
+  unnest(skills_split) |>
+  group_by(skills_split) |>
+  summarise(mean_salary = mean(avg_wage, na.rm = TRUE)) |>
+  filter(!is.na(skills_split) & skills_split != "NA") |>
+  arrange(desc(mean_salary))
+
+competences_salary <- competences_salary |>
+  mutate(color = scales::col_numeric(palette = "Blues", 
+                                     domain = range(mean_salary))
+         (mean_salary))
+
+wordcloud2(data = competences_salary,
+           size = 0.5,
+           color = competences_salary$color, 
+           backgroundColor = "white",
+           rotateRatio = 0,
+           gridSize = 10, 
+           fontWeight = "bold")
+
+
+
+```
+### Compétences Pondérées par les Brevets
+
+```{r,echo=FALSE, warning=FALSE, message=FALSE}
+
+library(dplyr)
+library(tidyr)
+library(scales)
+library(RColorBrewer)
+library(wordcloud2)
+library(htmlwidgets)
+
+# Prepare the data
+competences_patents <- base_emp_inno |>
+  filter(!is.na(n_patents), !is.na(top_skill_req)) |>
+  mutate(skills_split = strsplit(top_skill_req, ",\\s*")) |>
+  unnest(skills_split) |>
+  group_by(skills_split) |>
+  summarise(total_patents = sum(n_patents, na.rm = TRUE)) |>
+  filter(!is.na(skills_split) & skills_split != "NA") |>
+  arrange(desc(total_patents))
+
+competences_patents <- competences_patents |>
+  mutate(
+    scaled_patents = log10(total_patents + 1),
+    color = scales::col_numeric(
+      palette = RColorBrewer::brewer.pal(9, "Blues")[2:9],
+      domain = range(total_patents, na.rm = TRUE)
+    )(total_patents)
+  )
+
+# Save word cloud as HTML
+wordcloud_file <- "competences_patents_wordcloud.html"
+saveWidget(
+  wordcloud2(
+    data = competences_patents |> select(skills_split, scaled_patents),
+    size = 0.5,
+    color = competences_patents$color,
+    backgroundColor = "white",
+    rotateRatio = 0,
+    gridSize = 10,
+    fontWeight = "bold"
+  ),
+  wordcloud_file,
+  selfcontained = TRUE
+)
+```
+
+<iframe src="competences_patents_wordcloud.html" width="100%" height="600px" style="border:none;"></iframe>
+
+### Comparaison entre le nombre de brevets et d'offres d'emploi par secteur IPC 
+```{r,echo=FALSE, warning=FALSE, message=FALSE}
+library(ggplot2)
+library(dplyr)
+library(patchwork)
+
+ipc_labels <- c("A" = "Besoins Humains",
+                "B" = "Opérations/Transport",
+                "C" = "Chimie/Métallurgie",
+                "D" = "Textiles/Papier",
+                "E" = "Constructions",
+                "F" = "Ingénierie Mécanique",
+                "G" = "Physique",
+                "H" = "Électricité")
+
+palette <- c("#406F71", "#71B6AF", "#9DC8C8", "#D4E1E1", "#B8BABD", "#718A8C", "#5F9EA0", "#4A6F79")
+
+ipc_summary <- base_emp_inno |> 
+  filter(!is.na(ipc_main_code)) |> 
+  mutate(ipc_section = substr(ipc_main_code, 1, 1)) |> 
+  filter(ipc_section %in% names(ipc_labels)) |> 
+  group_by(ipc_section) |> 
+  summarise(n_brevets = n()) |> 
+  mutate(ipc_section_label = ipc_labels[ipc_section]) |> 
+  arrange(desc(n_brevets))  
+
+sector_order <- ipc_summary$ipc_section_label
+
+plot_brevets <- ggplot(ipc_summary, aes(x = factor(ipc_section_label, levels = sector_order), 
+                                        y = n_brevets, 
+                                        fill = ipc_section_label)) +
+  geom_bar(stat = "identity", color = "black", width = 0.7) +
+  scale_fill_manual(values = palette, guide = "none") +
+  labs(title = "",
+       x = NULL, y = "Nombre de brevets") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+ipc_offres <- base_emp_inno |> 
+  filter(!is.na(ipc_main_code)) |> 
+  mutate(ipc_section = substr(ipc_main_code, 1, 1)) |> 
+  filter(ipc_section %in% names(ipc_labels)) |> 
+  group_by(ipc_section) |> 
+  summarise(n_offres = sum(n_offres, na.rm = TRUE)) |> 
+  mutate(ipc_section_label = ipc_labels[ipc_section])
+
+plot_offres <- ggplot(ipc_offres, aes(x = factor(ipc_section_label, levels = sector_order), 
+                                      y = n_offres, 
+                                      fill = ipc_section_label)) +
+  geom_bar(stat = "identity", color = "black", width = 0.7) +
+  scale_fill_manual(values = palette, guide = "none") +
+  labs(title = "",
+       x = NULL, y = "Nombre d'offres") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+combined_plot <- plot_brevets | plot_offres 
+combined_plot + plot_annotation(
+  title = "Comparaison entre Brevets et Offres d'Emploi par Secteur IPC")
+
+
+```
+
+
+
+```{r,echo=FALSE, warning=FALSE, message=FALSE}
+# Filtrer les données
+filtered_data <- base_emp_inno |> 
+  mutate(
+    avg_req_exp = as.numeric(avg_req_exp),
+    avg_wage = as.numeric(avg_wage)
+  ) |> 
+  filter(!is.na(avg_req_exp) & !is.na(avg_wage))
+
+# Graphique
+ggplot(filtered_data, aes(x = avg_req_exp, y = avg_wage)) +
+  geom_point(aes(color = avg_req_exp), size = 2.5, alpha = 0.8) +
+  geom_smooth(method = "lm", color = "#406f71", se = FALSE, linewidth = 1) +
+  labs(
+    title = "Relation entre le salaire moyen et les années d'expérience requise",
+    subtitle = "Avec régression linéaire",
+    x = "Années d'expérience requise",
+    y = "Salaire moyen (€)"
+  ) +
+  scale_color_gradient(low = "#d4e1e1", high = "#71b6af") +
+  theme_minimal() +
+  theme(legend.position = "none")
+```
+### Matrice de corrélation
+```{r,echo=FALSE, warning=FALSE, message=FALSE}
+
+library(corrplot)
+base_emp_inno <- base_emp_inno |>
+  mutate(
+    avg_wage = as.numeric(avg_wage),
+    n_offres = as.numeric(n_offres),
+    avg_req_exp = as.numeric(avg_req_exp),
+    n_patents = as.numeric(n_patents)
+  )
+
+data_numeric <- base_emp_inno[, c("avg_wage", "n_offres", "avg_req_exp", "n_patents")]
+matrice_correlation <- round(cor(data_numeric, use = "complete.obs"), 2)
+corrplot(matrice_correlation,
+method = "color",
+type = "upper",
+tl.col = "black",
+diag = FALSE,
+number.cex = 1.5,
+tl.cex = 1.2,
+number.digits = 2,
+col = colorRampPalette(c("blue", "grey97", "red"))(200),
+addCoef.col = "white",
+font.lab = 2)
+
+```
+```{r,echo=FALSE, warning=FALSE, message=FALSE}
+palette_custom <- c("#406F71", "#71B6AF", "#9DC8C8", "#D4E1E1")
+
+ggplot(base_emp_inno, aes(x = n_patents,
+y = n_offres)) +
+geom_point(color = palette_custom[2],
+size = 3,
+alpha = 0.7) +
+geom_smooth(method = "lm",
+color = palette_custom[1],
+se = FALSE,
+linewidth = 1.2) +
+labs(title = "Relation entre le nombre de brevets déposés et le nombre \n offres d'emploi publiées",
+x = "Nombre de brevets déposés",
+y = "Nombre d'offres d'emploi") +
+ylim(0, 80) +
+theme_minimal(base_size = 14) +
+theme(panel.grid.major = element_line(color = palette_custom[4]),
+panel.grid.minor = element_blank())
+
+```
+
+
+```{r,echo=FALSE, warning=FALSE, message=FALSE}
+# Step 1: Separate rows and remove NAs
+data_separated <- base_emp_inno %>%
+  separate_rows(sector_main, sep = ",") %>%
+  separate_rows(top_skill_req, sep = ",") %>%
+  filter(!is.na(sector_main) & !is.na(top_skill_req))  # Remove rows with NA values
+
+# Step 2: Identify the top sectors and top skills
+top_sectors <- data_separated %>%
+  count(sector_main, name = "sector_count") %>%
+  arrange(desc(sector_count)) %>%
+  slice_head(n = 10)  # Select top 10 sectors
+
+top_skills <- data_separated %>%
+  count(top_skill_req, name = "skill_count") %>%
+  arrange(desc(skill_count)) %>%
+  slice_head(n = 10)  # Select top 10 skills
+
+# Step 3: Filter the data for the top sectors and top skills
+filtered_data <- data_separated %>%
+  filter(sector_main %in% top_sectors$sector_main & top_skill_req %in% top_skills$top_skill_req)
+
+# Step 4: Group and summarize the filtered data
+sector_skill <- filtered_data %>%
+  group_by(sector_main, top_skill_req) %>%
+  summarise(count = n(), .groups = "drop")
+
+# Step 5: Plot the heatmap
+ggplot(sector_skill, aes(x = sector_main, y = top_skill_req, fill = count)) +
+  geom_tile(color = "white") +
+  scale_fill_gradient(low = "lightblue", high = "blue", name = "Count") +
+  labs(
+    title = "Top Skills Required in Top Sectors",
+    x = "Sector",
+    y = "Top Skill Required"
+  ) +
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 45, hjust = 1),
+    axis.text.y = element_text(size = 10),
+    panel.grid = element_blank()
+  )
+
+```
+

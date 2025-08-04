@@ -1,0 +1,26 @@
+project:
+  type: website
+  output-dir: docs
+  
+
+website:
+  title: "Analyse"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: Statistiques
+      - href: Graphs.qmd
+        text: Graphiques
+      - href: econometrics.qmd
+        text: Économétrie
+
+format:
+  html:
+    theme: flaply
+    css: styles.css
+    toc: true
+    code-fold: true
+    code-summary: "Show Code"
+    self_contained: false
